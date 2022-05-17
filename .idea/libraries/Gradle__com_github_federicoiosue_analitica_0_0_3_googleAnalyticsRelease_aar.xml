@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.federicoiosue:analitica:0.0.3:googleAnalyticsRelease@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

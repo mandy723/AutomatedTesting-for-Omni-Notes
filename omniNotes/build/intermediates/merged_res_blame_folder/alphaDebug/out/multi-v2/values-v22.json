@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/7dac3db9c05671a6f389b2fd44cefe8d/transformed/appcompat-1.2.0/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "165,240,327,663",
+                        "endLines": "4,5,10,15",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "235,322,658,1006"
+                    }
+                },
+                {
+                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,108",
+                        "endColumns": "52,56",
+                        "endOffsets": "103,160"
+                    }
+                }
+            ]
+        }
+    ]
+}

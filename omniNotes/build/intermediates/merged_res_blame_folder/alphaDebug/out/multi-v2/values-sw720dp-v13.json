@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/40db6a3ffdc0991a9f8bdebce222a77c/transformed/jetified-core-0.9.6.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

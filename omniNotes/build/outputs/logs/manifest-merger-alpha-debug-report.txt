@@ -1,0 +1,915 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:309:5-317:16
+	android:grantUriPermissions
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:313:7-41
+	android:authorities
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:311:7-55
+	android:exported
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:312:7-31
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:310:7-56
+manifest
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:2:1-35:12
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/JohnnyLee/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:16:1-28:12
+MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/10e7c7c7cc6986944939548dc9ce24ea/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.larswerkman:HoloColorPicker:1.4] /Users/JohnnyLee/.gradle/caches/transforms-3/bb9c3255e54bf87645b607dbdccc2ef1/transformed/jetified-HoloColorPicker-1.4/AndroidManifest.xml:1:68-5:12
+MERGED from [de.keyboardsurfer.android.widget:crouton:1.8.4] /Users/JohnnyLee/.gradle/caches/transforms-3/f96f706104ca5bf05dce66d8a5c065a0/transformed/jetified-crouton-1.8.4/AndroidManifest.xml:15:116-18:12
+MERGED from [ch.acra:acra-http:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/04d4e9c4063d5a8e4e1fb00b70fa3d0b/transformed/jetified-acra-http-5.7.0/AndroidManifest.xml:17:1-27:12
+MERGED from [ch.acra:acra-toast:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b5d4bcc5f421a1fa50a15df6a0ca3f3b/transformed/jetified-acra-toast-5.7.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/50f3fb9d58d2a8ba70cd576aeed5a373/transformed/jetified-changelog-2.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/1d7f4507001d3d54a5d5807e83411f4a/transformed/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/791b053a451db3f0ba559f5ee8d8acc1/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/JohnnyLee/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b9eb3ede4b8d34c23462dc4856bdf8d8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/8262aa6b8c49f46ce779ff52edabb645/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/1a6b6fba86a65c874bfbca6c748db19e/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/JohnnyLee/.gradle/caches/transforms-3/fd2bf9f644b3767a5535952f4f3057d6/transformed/jetified-android-extensions-1.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/JohnnyLee/.gradle/caches/transforms-3/b4b9517e3924abfe1fe0c9370be56281/transformed/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/f6fc56820e8bafe760378da208f2269a/transformed/jetified-simplegallery-3.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e481d8acc65db775c97300c0bbcaeab4/transformed/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/3e2f79e5553a47fbc6939e142f8e6639/transformed/jetified-commons-0.9.6.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/40db6a3ffdc0991a9f8bdebce222a77c/transformed/jetified-core-0.9.6.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5cd40ba4f13a18fcfc9eb0d326f9f/transformed/jetified-butterknife-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/JohnnyLee/.gradle/caches/transforms-3/f1b9a5ce2ce0aa6fd90b850d73b314cc/transformed/jetified-materialish-progress-1.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.paolorotolo:appintro:1.3.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0610bc7141c61ddc611b8392d8ca192b/transformed/jetified-appintro-1.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex:rxandroid:1.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/87322d97dc445482d9db987cbe2d8cf6/transformed/jetified-rxandroid-1.0.1/AndroidManifest.xml:15:1-21:12
+MERGED from [com.artemzin.rxjava:proguard-rules:1.0.14.2] /Users/JohnnyLee/.gradle/caches/transforms-3/dd57720d3d983c239c0c6334bad11754/transformed/jetified-proguard-rules-1.0.14.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/JohnnyLee/.gradle/caches/transforms-3/5a270bbf923f2c1f075fe0975bcceeff/transformed/jetified-filelogger-1.0.7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/JohnnyLee/.gradle/caches/transforms-3/a06b85f9a3213d3eb3a8cfac6e427d04/transformed/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:2:1-17:12
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/JohnnyLee/.gradle/caches/transforms-3/00c1322d7897495021a782313bada582/transformed/jetified-library-1.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b09238649757197ec6ea1825c37d8ff3/transformed/jetified-checklistview-4.1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.federicoiosue:pixlui:3.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/679aad4ec57419d1ae1a92c46dd400c4/transformed/jetified-pixlui-3.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2f91468db7bff75f2cb1f69547166e7e/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/022c15362af2dfcd87fdfc4d29305447/transformed/jetified-play-services-location-9.0.2/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/83ddc3345baa7060e546ede0ad6b1b74/transformed/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/695e42d2083d19ff8e5be4840838ac7f/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/0e106654f0aa4171d91726228dc27a21/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/7dac3db9c05671a6f389b2fd44cefe8d/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/a6ce5f94ebc60b41ecbc6bbe938d2f0c/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/a0aca72b777bcbf8610e609454f85523/transformed/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/4120cfd9daaeadeb12aa2a9d848acf1b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/7cb0fac87a29a315cf3a3905b7f3d53d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6ebd443e9eb6716c6136b258a90d590f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2fc665e4072a53c6739d80cb267d1100/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/175542362403154a1224bf84e10afc00/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/692d74a2ed3a18f84e60dae233e607b9/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/355a05a05b0d3255fcd1b6284f9f0928/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/219c592772ee536231558839d76d0aa0/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b8f290096ff10bf8d224cfaf651948c9/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2b39ac5e12cd34e5ca01021ba573b82e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/1341a32f585eb47f907a56ec4e75b6c0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2cdeb2440983ac1f53aef1644b424656/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/9716be95175d2cbc7f80ee3006909ecd/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/ace091f3bf75eba3075f9aea406417fa/transformed/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/dfc3188e3fb1167500c1b94d5adfb6d7/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d68970193654af043106e848a634137d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/58771c09999438217fc9f090ff8af879/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e801edaf933570990f436ca976dc0ada/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/526e207bf9a3eeab1f32647db40e096d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/c8aac45860fc7607e3056c8dbab39fd2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/bb14fdbcfdcf329cfbc8d4c7a5335ed4/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6ee34f923bf5123c59c9708ea50a8b5f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/937a091a671802e611698a6e95887354/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/a04d1e6d17a3a265373091dace5b7557/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/63a212b9672c1b573f558c9f6829cd8c/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d608324e99725a61d7c18ee7370f7215/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/af5aa63941df2ac93e1705f00aedc8c3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6554ef693706f3cc4ef318765b60b639/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2162c68834406b164bfa1c269322a9f0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/adb0efae20b30b053aefea9890ce3839/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/5c0b129c433b7be588bb8b52d770684a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d8e285402cd7e470d0bb5864513156b1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/37e4f4e02c3d0c7da6c8a5ba7358043e/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/dddd5857f47bdaffb2e340d4b29b353a/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/944be391f2a95cdc728ac74f262ed3f4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/c0af4b816a56fbedcd0e2b874cca32e6/transformed/jetified-library-1.4.2/AndroidManifest.xml:6:1-16:12
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+	package
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:20:3-38
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:19:3-49
+	android:versionCode
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:1-321:12
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:23:3-65
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/JohnnyLee/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:11:5-67
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/JohnnyLee/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [ch.acra:acra-http:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/04d4e9c4063d5a8e4e1fb00b70fa3d0b/transformed/jetified-acra-http-5.7.0/AndroidManifest.xml:25:5-67
+MERGED from [ch.acra:acra-http:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/04d4e9c4063d5a8e4e1fb00b70fa3d0b/transformed/jetified-acra-http-5.7.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:23:20-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:24:3-79
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:24:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:25:3-77
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:25:20-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:26:3-77
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:13:5-79
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/JohnnyLee/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:12:5-79
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/JohnnyLee/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:26:20-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:27:3-79
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:27:20-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:28:3-64
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b09238649757197ec6ea1825c37d8ff3/transformed/jetified-checklistview-4.1.0/AndroidManifest.xml:11:5-66
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b09238649757197ec6ea1825c37d8ff3/transformed/jetified-checklistview-4.1.0/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:28:20-61
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:29:3-79
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:29:20-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:30:3-69
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:30:20-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:31:3-78
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:31:20-75
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:32:3-76
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:32:20-73
+uses-permission#com.google.android.apps.photos.permission.GOOGLE_PHOTOS
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:33:3-93
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:33:20-90
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:34:3-86
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:34:20-83
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:35:3-88
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:35:20-85
+uses-permission#com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:36:3-101
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:36:20-98
+uses-permission#com.pushbullet.android.permission.SEND_MESSAGES
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:37:3-85
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:37:20-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:38:3-66
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:38:20-63
+uses-feature#android.hardware.camera
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:40:3-42:32
+	android:required
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:42:5-29
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:41:5-43
+uses-feature#android.hardware.location.gps
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:43:3-45:32
+	android:required
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:45:5-29
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:44:5-49
+application
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:47:3-319:17
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:18:5-33:19
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:18:5-33:19
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/50f3fb9d58d2a8ba70cd576aeed5a373/transformed/jetified-changelog-2.0.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/50f3fb9d58d2a8ba70cd576aeed5a373/transformed/jetified-changelog-2.0.0/AndroidManifest.xml:11:5-20
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/1d7f4507001d3d54a5d5807e83411f4a/transformed/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/1d7f4507001d3d54a5d5807e83411f4a/transformed/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/JohnnyLee/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/JohnnyLee/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/JohnnyLee/.gradle/caches/transforms-3/fd2bf9f644b3767a5535952f4f3057d6/transformed/jetified-android-extensions-1.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/JohnnyLee/.gradle/caches/transforms-3/fd2bf9f644b3767a5535952f4f3057d6/transformed/jetified-android-extensions-1.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/JohnnyLee/.gradle/caches/transforms-3/b4b9517e3924abfe1fe0c9370be56281/transformed/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:12:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/JohnnyLee/.gradle/caches/transforms-3/b4b9517e3924abfe1fe0c9370be56281/transformed/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:12:5-20
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/f6fc56820e8bafe760378da208f2269a/transformed/jetified-simplegallery-3.0.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/f6fc56820e8bafe760378da208f2269a/transformed/jetified-simplegallery-3.0.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e481d8acc65db775c97300c0bbcaeab4/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e481d8acc65db775c97300c0bbcaeab4/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/3e2f79e5553a47fbc6939e142f8e6639/transformed/jetified-commons-0.9.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/3e2f79e5553a47fbc6939e142f8e6639/transformed/jetified-commons-0.9.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/40db6a3ffdc0991a9f8bdebce222a77c/transformed/jetified-core-0.9.6.0/AndroidManifest.xml:13:5-20
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/40db6a3ffdc0991a9f8bdebce222a77c/transformed/jetified-core-0.9.6.0/AndroidManifest.xml:13:5-20
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/JohnnyLee/.gradle/caches/transforms-3/f1b9a5ce2ce0aa6fd90b850d73b314cc/transformed/jetified-materialish-progress-1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/JohnnyLee/.gradle/caches/transforms-3/f1b9a5ce2ce0aa6fd90b850d73b314cc/transformed/jetified-materialish-progress-1.5/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:10:5-15:19
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:10:5-15:19
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/JohnnyLee/.gradle/caches/transforms-3/5a270bbf923f2c1f075fe0975bcceeff/transformed/jetified-filelogger-1.0.7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/JohnnyLee/.gradle/caches/transforms-3/5a270bbf923f2c1f075fe0975bcceeff/transformed/jetified-filelogger-1.0.7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/JohnnyLee/.gradle/caches/transforms-3/a06b85f9a3213d3eb3a8cfac6e427d04/transformed/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/JohnnyLee/.gradle/caches/transforms-3/a06b85f9a3213d3eb3a8cfac6e427d04/transformed/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/022c15362af2dfcd87fdfc4d29305447/transformed/jetified-play-services-location-9.0.2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/022c15362af2dfcd87fdfc4d29305447/transformed/jetified-play-services-location-9.0.2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/83ddc3345baa7060e546ede0ad6b1b74/transformed/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/83ddc3345baa7060e546ede0ad6b1b74/transformed/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/0e106654f0aa4171d91726228dc27a21/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/0e106654f0aa4171d91726228dc27a21/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2cdeb2440983ac1f53aef1644b424656/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2cdeb2440983ac1f53aef1644b424656/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/bb14fdbcfdcf329cfbc8d4c7a5335ed4/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/bb14fdbcfdcf329cfbc8d4c7a5335ed4/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:26:5-46:19
+MERGED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:26:5-46:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/937a091a671802e611698a6e95887354/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/937a091a671802e611698a6e95887354/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:50:5-48
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/bb14fdbcfdcf329cfbc8d4c7a5335ed4/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:54:5-31
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:52:5-37
+	android:largeHeap
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:53:5-29
+	android:icon
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:51:5-39
+	android:allowBackup
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:49:5-31
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:55:5-58
+		REJECTED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/f6fc56820e8bafe760378da208f2269a/transformed/jetified-simplegallery-3.0.1/AndroidManifest.xml:14:9-40
+	tools:replace
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:56:5-34
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:48:5-55
+meta-data#android.app.default_searchable
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:57:5-59:39
+	android:value
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:59:7-36
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:58:7-52
+meta-data#com.google.android.gms.version
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:60:5-63:39
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:29:9-32:45
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:29:9-32:45
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:21:9-23:69
+	tools:replace
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:63:7-36
+	android:value
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:62:7-60
+		REJECTED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:31:13-36
+		REJECTED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:61:7-52
+activity#it.feio.android.omninotes.MainActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:66:5-130:16
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:69:7-39
+	android:launchMode
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:70:7-37
+	android:exported
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:68:7-30
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:67:7-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:71:7-74:23
+action#android.intent.action.MAIN
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:72:9-61
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:72:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:73:9-69
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:73:19-66
+meta-data#android.app.shortcuts
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:76:7-78:45
+	android:resource
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:78:9-42
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:77:9-45
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:80:7-82:23
+action#android.intent.action.SEARCH
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:81:9-63
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:81:17-60
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/app_package+data:scheme:app
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:84:7-93:23
+data
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:85:9-87:48
+	android:host
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:87:11-45
+	android:scheme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:86:11-31
+	android:mimeType
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:104:15-37
+action#android.intent.action.VIEW
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:88:9-61
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:88:17-58
+category#android.intent.category.DEFAULT
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:90:9-68
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:90:19-65
+category#android.intent.category.BROWSABLE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:91:9-70
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:91:19-67
+meta-data#android.app.searchable
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:95:7-97:46
+	android:resource
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:97:9-43
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:96:9-46
+intent-filter#action:name:com.google.android.gm.action.AUTO_SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:99:7-105:23
+action#com.google.android.gm.action.AUTO_SEND
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:100:9-73
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:100:17-70
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:106:7-112:23
+action#android.intent.action.SEND
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:107:9-61
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:107:17-58
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:113:7-119:23
+action#android.intent.action.SEND_MULTIPLE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:114:9-70
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:114:17-67
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:hashtag
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:121:7-128:23
+activity#it.feio.android.omninotes.GalleryActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:133:5-136:65
+	android:configChanges
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:135:7-68
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:136:7-62
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:134:7-63
+activity#it.feio.android.omninotes.CategoryActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:138:5-146:16
+	android:parentActivityName
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:141:7-74
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:140:7-54
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:142:7-67
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:139:7-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:143:7-145:41
+	android:value
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:145:9-38
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:144:9-55
+activity#it.feio.android.omninotes.SettingsActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:149:5-156:16
+	android:parentActivityName
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:152:7-74
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:151:7-39
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:150:7-64
+activity#it.feio.android.omninotes.PasswordActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:159:5-162:64
+	android:windowSoftInputMode
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:162:7-61
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:161:7-59
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:160:7-64
+activity#it.feio.android.omninotes.AboutActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:165:5-168:40
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:167:7-51
+	android:launchMode
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:168:7-37
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:166:7-61
+activity#it.feio.android.omninotes.intro.IntroActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:171:5-173:42
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:173:7-39
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:172:7-42
+activity#it.feio.android.omninotes.SnoozeActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:176:5-181:57
+	android:excludeFromRecents
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:178:7-40
+	android:launchMode
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:179:7-42
+	android:noHistory
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:180:7-31
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:181:7-54
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:177:7-62
+activity#it.feio.android.omninotes.ShortcutActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:184:5-192:16
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:187:7-39
+	android:icon
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:186:7-45
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:185:7-64
+intent-filter#action:name:android.intent.action.CREATE_SHORTCUT+category:name:android.intent.category.DEFAULT
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:188:7-191:23
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:189:9-72
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:189:17-69
+activity#it.feio.android.omninotes.StatsActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:195:5-197:70
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:197:7-67
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:196:7-61
+activity#it.feio.android.omninotes.NoteInfosActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:198:5-200:70
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:200:7-67
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:199:7-65
+receiver#it.feio.android.omninotes.receiver.AlarmReceiver
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:203:5-81
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:203:15-78
+receiver#it.feio.android.omninotes.receiver.BootCompleteReceiver
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:206:5-215:16
+	android:enabled
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:208:7-29
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:210:7-43
+	android:exported
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:209:7-31
+	android:permission
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:211:7-69
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:207:7-52
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:212:7-214:23
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:213:9-71
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:213:17-68
+service#it.feio.android.omninotes.async.AlarmRestoreOnRebootService
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:218:5-220:66
+	android:permission
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:220:7-63
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:219:7-56
+service#it.feio.android.omninotes.services.NotificationListener
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:223:5-230:15
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:225:7-39
+	android:permission
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:226:7-81
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:224:7-52
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:227:7-229:23
+action#android.service.notification.NotificationListenerService
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:228:9-91
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:228:17-88
+service#it.feio.android.omninotes.async.DataBackupIntentService
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:233:5-87
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:233:14-84
+activity#it.feio.android.omninotes.widget.WidgetConfigurationActivity
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:236:5-242:16
+	android:theme
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:238:7-67
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:237:7-82
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:239:7-241:23
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:240:9-79
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:240:17-76
+receiver#it.feio.android.omninotes.widget.SimpleWidgetProvider
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:245:5-257:16
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:249:7-39
+	android:icon
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:248:7-36
+	android:description
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:247:7-62
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:246:7-75
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:250:7-252:23
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:251:9-76
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:251:17-73
+meta-data#android.appwidget.provider
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:254:7-256:52
+	android:resource
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:256:9-49
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:255:9-50
+receiver#it.feio.android.omninotes.widget.ListWidgetProvider
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:259:5-271:16
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:263:7-39
+	android:icon
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:262:7-36
+	android:description
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:261:7-60
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:260:7-73
+service#it.feio.android.omninotes.widget.ListWidgetService
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:273:5-275:66
+	android:permission
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:275:7-63
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:274:7-72
+service#it.feio.android.omninotes.extensions.ONDashClockExtension
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:278:5-296:15
+	android:label
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:281:7-39
+	android:permission
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:282:7-92
+	android:icon
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:280:7-52
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:279:7-54
+intent-filter#action:name:com.google.android.apps.dashclock.Extension
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:283:7-285:23
+action#com.google.android.apps.dashclock.Extension
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:284:9-78
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:284:17-75
+meta-data#protocolVersion
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:287:7-289:29
+	android:value
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:289:9-26
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:288:9-39
+meta-data#worldReadable
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:290:7-292:32
+	android:value
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:292:9-29
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:291:9-37
+meta-data#description
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:293:7-295:57
+	android:value
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:295:9-54
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:294:9-35
+service#it.feio.android.omninotes.extensions.PushBulletExtension
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:298:5-307:15
+	android:permission
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:300:7-91
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:299:7-78
+intent-filter#action:name:com.pushbullet.android.extension.MessagingExtension
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:301:7-303:23
+action#com.pushbullet.android.extension.MessagingExtension
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:302:9-86
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:302:17-83
+uses-sdk
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/JohnnyLee/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:analitica:0.0.3] /Users/JohnnyLee/.gradle/caches/transforms-3/c0b278cb2945657d734f1f8cdac75009/transformed/jetified-analitica-0.0.3-googleAnalyticsRelease/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/99c2c9dfb1a984d0e6f1659c48828580/transformed/jetified-play-services-analytics-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/10e7c7c7cc6986944939548dc9ce24ea/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/10e7c7c7cc6986944939548dc9ce24ea/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.larswerkman:HoloColorPicker:1.4] /Users/JohnnyLee/.gradle/caches/transforms-3/bb9c3255e54bf87645b607dbdccc2ef1/transformed/jetified-HoloColorPicker-1.4/AndroidManifest.xml:3:5-72
+MERGED from [com.larswerkman:HoloColorPicker:1.4] /Users/JohnnyLee/.gradle/caches/transforms-3/bb9c3255e54bf87645b607dbdccc2ef1/transformed/jetified-HoloColorPicker-1.4/AndroidManifest.xml:3:5-72
+MERGED from [de.keyboardsurfer.android.widget:crouton:1.8.4] /Users/JohnnyLee/.gradle/caches/transforms-3/f96f706104ca5bf05dce66d8a5c065a0/transformed/jetified-crouton-1.8.4/AndroidManifest.xml:16:5-72
+MERGED from [de.keyboardsurfer.android.widget:crouton:1.8.4] /Users/JohnnyLee/.gradle/caches/transforms-3/f96f706104ca5bf05dce66d8a5c065a0/transformed/jetified-crouton-1.8.4/AndroidManifest.xml:16:5-72
+MERGED from [ch.acra:acra-http:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/04d4e9c4063d5a8e4e1fb00b70fa3d0b/transformed/jetified-acra-http-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [ch.acra:acra-http:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/04d4e9c4063d5a8e4e1fb00b70fa3d0b/transformed/jetified-acra-http-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [ch.acra:acra-toast:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b5d4bcc5f421a1fa50a15df6a0ca3f3b/transformed/jetified-acra-toast-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [ch.acra:acra-toast:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b5d4bcc5f421a1fa50a15df6a0ca3f3b/transformed/jetified-acra-toast-5.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/50f3fb9d58d2a8ba70cd576aeed5a373/transformed/jetified-changelog-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gabrielemariotti.changeloglib:changelog:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/50f3fb9d58d2a8ba70cd576aeed5a373/transformed/jetified-changelog-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/1d7f4507001d3d54a5d5807e83411f4a/transformed/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2] /Users/JohnnyLee/.gradle/caches/transforms-3/1d7f4507001d3d54a5d5807e83411f4a/transformed/jetified-sublimepickerlibrary-2.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/791b053a451db3f0ba559f5ee8d8acc1/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/791b053a451db3f0ba559f5ee8d8acc1/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/JohnnyLee/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/JohnnyLee/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b9eb3ede4b8d34c23462dc4856bdf8d8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b9eb3ede4b8d34c23462dc4856bdf8d8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/8262aa6b8c49f46ce779ff52edabb645/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/8262aa6b8c49f46ce779ff52edabb645/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/1a6b6fba86a65c874bfbca6c748db19e/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/1a6b6fba86a65c874bfbca6c748db19e/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/JohnnyLee/.gradle/caches/transforms-3/fd2bf9f644b3767a5535952f4f3057d6/transformed/jetified-android-extensions-1.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.pushbullet:android-extensions:1.0.4] /Users/JohnnyLee/.gradle/caches/transforms-3/fd2bf9f644b3767a5535952f4f3057d6/transformed/jetified-android-extensions-1.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/JohnnyLee/.gradle/caches/transforms-3/b4b9517e3924abfe1fe0c9370be56281/transformed/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] /Users/JohnnyLee/.gradle/caches/transforms-3/b4b9517e3924abfe1fe0c9370be56281/transformed/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/f6fc56820e8bafe760378da208f2269a/transformed/jetified-simplegallery-3.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:simplegallery:3.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/f6fc56820e8bafe760378da208f2269a/transformed/jetified-simplegallery-3.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e481d8acc65db775c97300c0bbcaeab4/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e481d8acc65db775c97300c0bbcaeab4/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/3e2f79e5553a47fbc6939e142f8e6639/transformed/jetified-commons-0.9.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.afollestad.material-dialogs:commons:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/3e2f79e5553a47fbc6939e142f8e6639/transformed/jetified-commons-0.9.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/40db6a3ffdc0991a9f8bdebce222a77c/transformed/jetified-core-0.9.6.0/AndroidManifest.xml:8:5-11:75
+MERGED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/40db6a3ffdc0991a9f8bdebce222a77c/transformed/jetified-core-0.9.6.0/AndroidManifest.xml:8:5-11:75
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5cd40ba4f13a18fcfc9eb0d326f9f/transformed/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5cd40ba4f13a18fcfc9eb0d326f9f/transformed/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/JohnnyLee/.gradle/caches/transforms-3/f1b9a5ce2ce0aa6fd90b850d73b314cc/transformed/jetified-materialish-progress-1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.5] /Users/JohnnyLee/.gradle/caches/transforms-3/f1b9a5ce2ce0aa6fd90b850d73b314cc/transformed/jetified-materialish-progress-1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:1.3.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0610bc7141c61ddc611b8392d8ca192b/transformed/jetified-appintro-1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:1.3.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0610bc7141c61ddc611b8392d8ca192b/transformed/jetified-appintro-1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex:rxandroid:1.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/87322d97dc445482d9db987cbe2d8cf6/transformed/jetified-rxandroid-1.0.1/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/87322d97dc445482d9db987cbe2d8cf6/transformed/jetified-rxandroid-1.0.1/AndroidManifest.xml:19:5-43
+MERGED from [com.artemzin.rxjava:proguard-rules:1.0.14.2] /Users/JohnnyLee/.gradle/caches/transforms-3/dd57720d3d983c239c0c6334bad11754/transformed/jetified-proguard-rules-1.0.14.2/AndroidManifest.xml:8:5-43
+MERGED from [com.artemzin.rxjava:proguard-rules:1.0.14.2] /Users/JohnnyLee/.gradle/caches/transforms-3/dd57720d3d983c239c0c6334bad11754/transformed/jetified-proguard-rules-1.0.14.2/AndroidManifest.xml:8:5-43
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/JohnnyLee/.gradle/caches/transforms-3/5a270bbf923f2c1f075fe0975bcceeff/transformed/jetified-filelogger-1.0.7/AndroidManifest.xml:5:5-43
+MERGED from [com.github.bosphere.android-filelogger:filelogger:1.0.7] /Users/JohnnyLee/.gradle/caches/transforms-3/5a270bbf923f2c1f075fe0975bcceeff/transformed/jetified-filelogger-1.0.7/AndroidManifest.xml:5:5-43
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/JohnnyLee/.gradle/caches/transforms-3/a06b85f9a3213d3eb3a8cfac6e427d04/transformed/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sevar83:indeterminate-checkbox:1.0.5] /Users/JohnnyLee/.gradle/caches/transforms-3/a06b85f9a3213d3eb3a8cfac6e427d04/transformed/jetified-indeterminate-checkbox-1.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/JohnnyLee/.gradle/caches/transforms-3/00c1322d7897495021a782313bada582/transformed/jetified-library-1.9.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/JohnnyLee/.gradle/caches/transforms-3/00c1322d7897495021a782313bada582/transformed/jetified-library-1.9.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b09238649757197ec6ea1825c37d8ff3/transformed/jetified-checklistview-4.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:checklistview:4.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b09238649757197ec6ea1825c37d8ff3/transformed/jetified-checklistview-4.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.federicoiosue:pixlui:3.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/679aad4ec57419d1ae1a92c46dd400c4/transformed/jetified-pixlui-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.federicoiosue:pixlui:3.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/679aad4ec57419d1ae1a92c46dd400c4/transformed/jetified-pixlui-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2f91468db7bff75f2cb1f69547166e7e/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2f91468db7bff75f2cb1f69547166e7e/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/022c15362af2dfcd87fdfc4d29305447/transformed/jetified-play-services-location-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/022c15362af2dfcd87fdfc4d29305447/transformed/jetified-play-services-location-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/8c2cef818b867678ab35058ff2f7c07b/transformed/jetified-play-services-analytics-impl-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/83ddc3345baa7060e546ede0ad6b1b74/transformed/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/83ddc3345baa7060e546ede0ad6b1b74/transformed/jetified-play-services-tasks-9.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/a6e74b0cf38a9b00142574ff323dc763/transformed/jetified-play-services-basement-9.0.2/AndroidManifest.xml:18:5-42
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/695e42d2083d19ff8e5be4840838ac7f/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/695e42d2083d19ff8e5be4840838ac7f/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/0e106654f0aa4171d91726228dc27a21/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/JohnnyLee/.gradle/caches/transforms-3/0e106654f0aa4171d91726228dc27a21/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/7dac3db9c05671a6f389b2fd44cefe8d/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/7dac3db9c05671a6f389b2fd44cefe8d/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/a6ce5f94ebc60b41ecbc6bbe938d2f0c/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/a6ce5f94ebc60b41ecbc6bbe938d2f0c/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/a0aca72b777bcbf8610e609454f85523/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/a0aca72b777bcbf8610e609454f85523/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/4120cfd9daaeadeb12aa2a9d848acf1b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/4120cfd9daaeadeb12aa2a9d848acf1b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/7cb0fac87a29a315cf3a3905b7f3d53d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/7cb0fac87a29a315cf3a3905b7f3d53d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6ebd443e9eb6716c6136b258a90d590f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6ebd443e9eb6716c6136b258a90d590f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2fc665e4072a53c6739d80cb267d1100/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2fc665e4072a53c6739d80cb267d1100/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/175542362403154a1224bf84e10afc00/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/175542362403154a1224bf84e10afc00/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/692d74a2ed3a18f84e60dae233e607b9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/692d74a2ed3a18f84e60dae233e607b9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/355a05a05b0d3255fcd1b6284f9f0928/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/355a05a05b0d3255fcd1b6284f9f0928/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/219c592772ee536231558839d76d0aa0/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/219c592772ee536231558839d76d0aa0/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b8f290096ff10bf8d224cfaf651948c9/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/b8f290096ff10bf8d224cfaf651948c9/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2b39ac5e12cd34e5ca01021ba573b82e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2b39ac5e12cd34e5ca01021ba573b82e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/1341a32f585eb47f907a56ec4e75b6c0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/1341a32f585eb47f907a56ec4e75b6c0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2cdeb2440983ac1f53aef1644b424656/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2cdeb2440983ac1f53aef1644b424656/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/9716be95175d2cbc7f80ee3006909ecd/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/9716be95175d2cbc7f80ee3006909ecd/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/ace091f3bf75eba3075f9aea406417fa/transformed/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/JohnnyLee/.gradle/caches/transforms-3/ace091f3bf75eba3075f9aea406417fa/transformed/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/dfc3188e3fb1167500c1b94d5adfb6d7/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/dfc3188e3fb1167500c1b94d5adfb6d7/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d68970193654af043106e848a634137d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d68970193654af043106e848a634137d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/58771c09999438217fc9f090ff8af879/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/58771c09999438217fc9f090ff8af879/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e801edaf933570990f436ca976dc0ada/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/e801edaf933570990f436ca976dc0ada/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/526e207bf9a3eeab1f32647db40e096d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/526e207bf9a3eeab1f32647db40e096d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/c8aac45860fc7607e3056c8dbab39fd2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/c8aac45860fc7607e3056c8dbab39fd2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/bb14fdbcfdcf329cfbc8d4c7a5335ed4/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/bb14fdbcfdcf329cfbc8d4c7a5335ed4/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:22:5-24:41
+MERGED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6ee34f923bf5123c59c9708ea50a8b5f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6ee34f923bf5123c59c9708ea50a8b5f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/937a091a671802e611698a6e95887354/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/JohnnyLee/.gradle/caches/transforms-3/937a091a671802e611698a6e95887354/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/a04d1e6d17a3a265373091dace5b7557/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/a04d1e6d17a3a265373091dace5b7557/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/63a212b9672c1b573f558c9f6829cd8c/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/63a212b9672c1b573f558c9f6829cd8c/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d608324e99725a61d7c18ee7370f7215/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d608324e99725a61d7c18ee7370f7215/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/af5aa63941df2ac93e1705f00aedc8c3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/af5aa63941df2ac93e1705f00aedc8c3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6554ef693706f3cc4ef318765b60b639/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/6554ef693706f3cc4ef318765b60b639/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2162c68834406b164bfa1c269322a9f0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/2162c68834406b164bfa1c269322a9f0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/adb0efae20b30b053aefea9890ce3839/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/adb0efae20b30b053aefea9890ce3839/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/5c0b129c433b7be588bb8b52d770684a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/5c0b129c433b7be588bb8b52d770684a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d8e285402cd7e470d0bb5864513156b1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/JohnnyLee/.gradle/caches/transforms-3/d8e285402cd7e470d0bb5864513156b1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/37e4f4e02c3d0c7da6c8a5ba7358043e/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/JohnnyLee/.gradle/caches/transforms-3/37e4f4e02c3d0c7da6c8a5ba7358043e/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/dddd5857f47bdaffb2e340d4b29b353a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/dddd5857f47bdaffb2e340d4b29b353a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/944be391f2a95cdc728ac74f262ed3f4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/JohnnyLee/.gradle/caches/transforms-3/944be391f2a95cdc728ac74f262ed3f4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/c0af4b816a56fbedcd0e2b874cca32e6/transformed/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/c0af4b816a56fbedcd0e2b874cca32e6/transformed/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.github.afollestad.material-dialogs:core:0.9.6.0] /Users/JohnnyLee/.gradle/caches/transforms-3/40db6a3ffdc0991a9f8bdebce222a77c/transformed/jetified-core-0.9.6.0/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+		INJECTED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:314:7-316:55
+	android:resource
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:316:9-52
+	android:name
+		ADDED from /Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/AndroidManifest.xml:315:9-59
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.4] /Users/JohnnyLee/.gradle/caches/transforms-3/d4d1b8f545956500770acbaccd7585dc/transformed/jetified-library-3.2.4/AndroidManifest.xml:26:13-120
+activity#com.tbruyelle.rxpermissions.ShadowActivity
+ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:11:9-14:75
+	android:launchMode
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:13:13-43
+	android:theme
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.4.2] /Users/JohnnyLee/.gradle/caches/transforms-3/84f5ed453c3ab43ebce573940a5943a3/transformed/jetified-rxpermissions-0.4.2/AndroidManifest.xml:12:13-70
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/7ece1616d393bf9ac6a7bbf849497385/transformed/jetified-play-services-maps-9.0.2/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/68185dbd8cddd56ab6c5eb9bd4aeec60/transformed/jetified-play-services-base-9.0.2/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /Users/JohnnyLee/.gradle/caches/transforms-3/43523dcf4472a8abe1c3b4b40fa41678/transformed/jetified-firebase-common-9.0.2/AndroidManifest.xml:9:13-58
+service#org.acra.sender.LegacySenderService
+ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:27:9-31:39
+	android:process
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:31:13-36
+	android:enabled
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:29:13-63
+	android:exported
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:28:13-63
+service#org.acra.sender.JobSenderService
+ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:32:9-37:39
+	android:process
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:37:13-36
+	android:enabled
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:34:13-60
+	android:exported
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:35:13-37
+	android:permission
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:33:13-60
+provider#org.acra.attachment.AcraContentProvider
+ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:39:9-45:51
+	android:process
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:44:13-36
+	android:grantUriPermissions
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:43:13-47
+	android:authorities
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:41:13-56
+	android:exported
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:42:13-37
+	tools:replace
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from [ch.acra:acra-core:5.7.0] /Users/JohnnyLee/.gradle/caches/transforms-3/0a3809165d3308f0eb7e1e9fba9fdeed/transformed/jetified-acra-core-5.7.0/AndroidManifest.xml:40:13-67

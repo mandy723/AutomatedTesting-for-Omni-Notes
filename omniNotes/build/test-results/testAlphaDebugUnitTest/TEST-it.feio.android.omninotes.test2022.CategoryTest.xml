@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.feio.android.omninotes.test2022.CategoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-14T04:23:35" hostname="Jason-MAC.local" time="0.291">
+  <properties/>
+  <testcase name="getCategoryTest" classname="it.feio.android.omninotes.test2022.CategoryTest" time="0.291"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

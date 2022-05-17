@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/f6fc56820e8bafe760378da208f2269a/transformed/jetified-simplegallery-3.0.1/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "198"
+                    }
+                }
+            ]
+        }
+    ]
+}

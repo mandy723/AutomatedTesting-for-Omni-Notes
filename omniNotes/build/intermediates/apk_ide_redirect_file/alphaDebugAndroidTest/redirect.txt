@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../apk/androidTest/alpha/debug/output-metadata.json

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                },
+                {
+                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/1d7f4507001d3d54a5d5807e83411f4a/transformed/jetified-sublimepickerlibrary-2.1.2/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,122",
+                        "endColumns": "66,68",
+                        "endOffsets": "117,186"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "332,399",
+                        "endColumns": "66,68",
+                        "endOffsets": "394,463"
+                    }
+                }
+            ]
+        }
+    ]
+}

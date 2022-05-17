@@ -1,0 +1,521 @@
+05-17 20:25:02.257  4268  4293 I TestRunner: started: removeCategoryFromSelectedNotes(it.feio.android.omninotes.ui.CategoryLifecycleTest)
+05-17 20:25:02.263  4268  4293 I GrantPermissionCallable: Permission: android.permission.ACCESS_FINE_LOCATION is already granted!
+05-17 20:25:02.264  4268  4293 I GrantPermissionCallable: Permission: android.permission.READ_EXTERNAL_STORAGE is already granted!
+05-17 20:25:02.265   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x1238
+05-17 20:25:02.265   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3fc1d6000 size 0x3000
+05-17 20:25:02.266  4268  4293 I GrantPermissionCallable: Permission: android.permission.RECORD_AUDIO is already granted!
+05-17 20:25:02.268  4268  4293 I GrantPermissionCallable: Permission: android.permission.ACCESS_COARSE_LOCATION is already granted!
+05-17 20:25:02.269  4268  4293 I GrantPermissionCallable: Permission: android.permission.WRITE_EXTERNAL_STORAGE is already granted!
+05-17 20:25:02.273  1048  1549 E FrameEvents: updateAcquireFence: Did not find frame.
+05-17 20:25:02.274   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x1238
+05-17 20:25:02.275   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3fc1d3000 size 0x3000
+05-17 20:25:02.293  1407  1965 I A       : Disconnecting from SysUi, flag disabled.
+05-17 20:25:02.294  1407  1965 I A       : Disconnecting from SysUi, VM not enabled.
+05-17 20:25:02.298  1407  1965 I A       : Disconnected
+05-17 20:25:02.349  4268  4293 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+05-17 20:25:02.349  4268  4268 D CompatibilityChangeReporter: Compat change id reported: 119147584; UID 10155; state: DISABLED
+05-17 20:25:02.355   533   553 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+05-17 20:25:02.377   533  1513 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.377   533  1513 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.377   533  1513 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.378   533  1513 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.378   533  1513 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.378   533  1513 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.379   533  1513 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.379   533  1513 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.379   533  1513 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.379   533  1513 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.380   533  1513 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.380   533  1513 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.381   533  1513 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:02.402   533   553 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+05-17 20:25:02.445  4268  4301 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+05-17 20:25:02.450  4268  4301 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+05-17 20:25:02.454  4268  4301 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+05-17 20:25:02.501   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x7e9000
+05-17 20:25:02.503   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3ddcf8000 size 0x7ea000
+05-17 20:25:02.618  4268  4268 D LifecycleMonitor: Lifecycle status change: it.feio.android.omninotes.MainActivity@cfe5044 in: PRE_ON_CREATE
+05-17 20:25:02.625  4268  4268 W omninotes.alph: Accessing hidden field Landroid/view/ViewConfiguration;->sHasPermanentMenuKey:Z (greylist-max-p, reflection, denied)
+05-17 20:25:02.628  4268  4268 W CheckListView: Just a little issue in physical menu button management
+05-17 20:25:02.628  4268  4268 W CheckListView: java.lang.NoSuchFieldException: No field sHasPermanentMenuKey in class Landroid/view/ViewConfiguration; (declaration of 'android.view.ViewConfiguration' appears in /system/framework/framework.jar!classes3.dex)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at java.lang.Class.getDeclaredField(Native Method)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at it.feio.android.omninotes.BaseActivity.onCreate(BaseActivity.java:79)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at it.feio.android.omninotes.MainActivity.onCreate(MainActivity.java:95)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.Activity.performCreate(Activity.java:8000)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.Activity.performCreate(Activity.java:7984)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:730)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.os.Looper.loop(Looper.java:223)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at java.lang.reflect.Method.invoke(Native Method)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-17 20:25:02.628  4268  4268 W CheckListView: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-17 20:25:02.782  4268  4268 I AppCompatViewInflater: app:theme is now deprecated. Please move to using android:theme instead.
+05-17 20:25:02.862  4268  4268 W omninotes.alph: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+05-17 20:25:02.862  4268  4268 W omninotes.alph: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+05-17 20:25:02.906  4268  4268 D LifecycleMonitor: Lifecycle status change: it.feio.android.omninotes.MainActivity@cfe5044 in: CREATED
+05-17 20:25:02.910  4268  4268 V CheckListView: Started navigation drawer initialization
+05-17 20:25:02.916  4268  4268 V CheckListView: Finished navigation drawer initialization
+05-17 20:25:02.919  4268  4268 D LifecycleMonitor: Lifecycle status change: it.feio.android.omninotes.MainActivity@cfe5044 in: STARTED
+05-17 20:25:02.921  4268  4268 D CheckListView: {}
+05-17 20:25:02.940  4268  4268 D LifecycleMonitor: Lifecycle status change: it.feio.android.omninotes.MainActivity@cfe5044 in: RESUMED
+05-17 20:25:03.124  4268  4268 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:03.128  4268  4302 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.129  4268  4302 V CheckListView: Query: Retrieval finished!
+05-17 20:25:03.133  4268  4268 I MockAnalyticsHelper: MockAnalyticsHelper instance methods are empty. No analytic data will be collected.
+05-17 20:25:03.152  4268  4268 D CheckListView: it.feio.android.omninotes.async.bus.NotesLoadedEvent
+05-17 20:25:03.170  4268  4268 V CheckListView: Started navigation drawer initialization
+05-17 20:25:03.172  4268  4268 V CheckListView: Finished navigation drawer initialization
+05-17 20:25:03.177  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:03.178  4268  4302 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.179  4268  4302 V CheckListView: Query: Retrieval finished!
+05-17 20:25:03.181  4268  4302 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:03.185  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:03.248  4268  4299 D HostConnection: HostConnection::get() New Host Connection established 0xf01a2280, tid 4299
+05-17 20:25:03.261  4268  4299 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_0
+05-17 20:25:03.268   177   177 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+05-17 20:25:03.270  4268  4299 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-17 20:25:03.272  4268  4299 D EGL_emulation: eglCreateContext: 0xf01a3860: maj 3 min 0 rcv 3
+05-17 20:25:03.275  4268  4299 D EGL_emulation: eglMakeCurrent: 0xf01a3860: ver 3 0 (tinfo 0xf04e4b50) (first time)
+05-17 20:25:03.287   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x7e9000
+05-17 20:25:03.287   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3deccc000 size 0x7ea000
+05-17 20:25:03.292   177   177 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+05-17 20:25:03.293  4268  4299 I Gralloc4: mapper 4.x is not supported
+05-17 20:25:03.294  4268  4299 D HostConnection: createUnique: call
+05-17 20:25:03.295  4268  4299 D HostConnection: HostConnection::get() New Host Connection established 0xf01a3ef0, tid 4299
+05-17 20:25:03.295  4268  4299 D goldfish-address-space: allocate: Ask for block of size 0x100
+05-17 20:25:03.296  4268  4299 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3fc358000 size 0x2000
+05-17 20:25:03.312  4268  4299 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_0
+05-17 20:25:03.316   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x7e9000
+05-17 20:25:03.317   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3de4e2000 size 0x7ea000
+05-17 20:25:03.321   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x7e9000
+05-17 20:25:03.321   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3e06c2000 size 0x7ea000
+05-17 20:25:03.401   533   560 D ArtManagerInternalImpl: /data/misc/iorapd/it.feio.android.omninotes.alpha/301/it.feio.android.omninotes.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+05-17 20:25:03.403   533   560 I ActivityTaskManager: Displayed it.feio.android.omninotes.alpha/it.feio.android.omninotes.MainActivity: +1s45ms
+05-17 20:25:03.407   533   553 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+05-17 20:25:03.726  4268  4293 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:03.727 18386 18471 I PBSessionCacheImpl: Deleted sessionId[80864135661226031] from persistence.
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: Accessibility content change on non-UI thread. Future Android versions will throw an exception.
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: android.view.ViewRootImpl$CalledFromWrongThreadException: Only the original thread that created a view hierarchy can touch its views.
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewRootImpl$SendWindowContentChangedAccessibilityEvent.runOrPost(ViewRootImpl.java:9677)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewRootImpl.postSendWindowContentChangedCallback(ViewRootImpl.java:8535)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewRootImpl.notifySubtreeAccessibilityStateChanged(ViewRootImpl.java:8715)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChanged(ViewGroup.java:3833)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.View.notifySubtreeAccessibilityStateChangedIfNeeded(View.java:13759)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.ViewGroup.notifySubtreeAccessibilityStateChangedIfNeeded(ViewGroup.java:3857)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.View.setAlphaInternal(View.java:17134)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at android.view.View.setAlpha(View.java:17088)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at it.feio.android.omninotes.ListFragment.initNotesList(ListFragment.java:1055)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at it.feio.android.omninotes.ListFragment.onEvent(ListFragment.java:1171)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at de.greenrobot.event.EventBus.invokeSubscriber(EventBus.java:498)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at de.greenrobot.event.EventBus.postToSubscription(EventBus.java:429)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at de.greenrobot.event.EventBus.postSingleEventForEventType(EventBus.java:410)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at de.greenrobot.event.EventBus.postSingleEvent(EventBus.java:383)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at de.greenrobot.event.EventBus.post(EventBus.java:263)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at it.feio.android.omninotes.BaseAndroidTestCase.createCategory(BaseAndroidTestCase.java:185)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at it.feio.android.omninotes.ui.CategoryLifecycleTest.removeCategoryFromSelectedNotes(CategoryLifecycleTest.java:133)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:549)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+05-17 20:25:03.729  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)
+05-17 20:25:03.730  4268  4293 E ViewRootImpl: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)
+05-17 20:25:03.738  4268  4293 V CheckListView: Finished main menu initialization
+05-17 20:25:03.739  4268  4293 V CheckListView: Finished categories menu initialization
+05-17 20:25:03.753  4268  4293 D CheckListView: Updated note titled 'title1'
+05-17 20:25:03.758  4268  4302 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.802 18386 18499 W SearchServiceCore: Abort, client detached.
+05-17 20:25:03.805  4268  4293 D CheckListView: it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+05-17 20:25:03.810  4268  4293 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:03.818  4268  4306 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.818  4268  4309 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.819  4268  4293 V CheckListView: Finished main menu initialization
+05-17 20:25:03.819  4268  4293 V CheckListView: Finished categories menu initialization
+05-17 20:25:03.822  4268  4293 D CheckListView: Updated note titled 'title2'
+05-17 20:25:03.836  4268  4293 D CheckListView: it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+05-17 20:25:03.844  4268  4293 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:03.844  4268  4293 V CheckListView: Finished main menu initialization
+05-17 20:25:03.846  4268  4310 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.850  4268  4311 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.851  4268  4293 V CheckListView: Finished categories menu initialization
+05-17 20:25:03.873  4268  4293 D CheckListView: Updated note titled 'title3'
+05-17 20:25:03.896  4268  4293 D CheckListView: it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+05-17 20:25:03.896  4268  4293 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:03.897  4268  4293 V CheckListView: Finished main menu initialization
+05-17 20:25:03.897  4268  4293 V CheckListView: Finished categories menu initialization
+05-17 20:25:03.899  4268  4307 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.903  4268  4313 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.947  4268  4293 D CheckListView: Updated note titled 'title1'
+05-17 20:25:03.964  4268  4293 D CheckListView: it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+05-17 20:25:03.972  4268  4293 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:03.980  4268  4314 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.983  4268  4302 V CheckListView: Query: Retrieval finished!
+05-17 20:25:03.988  4268  4293 V CheckListView: Finished main menu initialization
+05-17 20:25:03.988  4268  4316 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:03.989  4268  4293 V CheckListView: Finished categories menu initialization
+05-17 20:25:03.998  4268  4309 V CheckListView: Query: Retrieval finished!
+05-17 20:25:03.998  4268  4309 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:04.031  4268  4293 D CheckListView: Updated note titled 'title2'
+05-17 20:25:04.049  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:04.049  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.051  4268  4293 D CheckListView: it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+05-17 20:25:04.051  4268  4293 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:04.051  4268  4293 V CheckListView: Finished main menu initialization
+05-17 20:25:04.052  4268  4293 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.052  4268  4309 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:04.053  4268  4312 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:04.084  4268  4281 I omninotes.alph: JIT allocated 74KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+05-17 20:25:04.104  4268  4293 D CheckListView: Updated note titled 'title3'
+05-17 20:25:04.124  4268  4293 D CheckListView: it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+05-17 20:25:04.126  4268  4293 D CheckListView: initNotesList intent: android.intent.action.MAIN
+05-17 20:25:04.126  4268  4293 V CheckListView: Finished main menu initialization
+05-17 20:25:04.130  4268  4293 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.132  4268  4308 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:04.133  4268  4318 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:04.248  4268  4293 D EventInjectionStrategy: Creating injection strategy with input manager.
+05-17 20:25:04.248  4268  4293 W omninotes.alph: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+05-17 20:25:04.248  4268  4293 W omninotes.alph: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+05-17 20:25:04.248  4268  4293 W omninotes.alph: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+05-17 20:25:04.375  4268  4293 W omninotes.alph: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+05-17 20:25:04.400  4268  4268 W omninotes.alph: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+05-17 20:25:04.400  4268  4268 W omninotes.alph: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+05-17 20:25:04.400  4268  4268 W omninotes.alph: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+05-17 20:25:04.536  4268  4311 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.536  4268  4311 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:04.548  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:04.549  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.559  4268  4306 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.575  4268  4310 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.633  4268  4313 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.634  4268  4313 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:04.634  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:04.635  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.650  4268  4307 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.658  4268  4316 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.659  4268  4316 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:04.667  4268  4314 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.679  4268  4309 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.679  4268  4309 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:04.683  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:04.684  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.684  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:04.684  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.697  4268  4312 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.698  4268  4308 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.698  4268  4308 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:04.701  4268  4318 V CheckListView: Query: Retrieval finished!
+05-17 20:25:04.736  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:04.736  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.737  4268  4268 D CheckListView: it.feio.android.omninotes.async.bus.NotesLoadedEvent
+05-17 20:25:04.743  4268  4268 V CheckListView: Started navigation drawer initialization
+05-17 20:25:04.743  4268  4268 V CheckListView: Finished navigation drawer initialization
+05-17 20:25:04.744  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:04.744  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:04.874  4268  4268 D CheckListView: No Vertical Scrolled
+05-17 20:25:04.969  4268  4268 W omninotes.alph: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+05-17 20:25:04.969  4268  4268 W omninotes.alph: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-17 20:25:04.969  4268  4268 W omninotes.alph: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-17 20:25:04.988  4268  4268 I ViewInteraction: Performing 'long click' action on view (view.getId() is <2131296753/it.feio.android.omninotes.alpha:id/note_title> and an instance of android.widget.TextView and view.getText() with or without transformation to match: is "title1")
+05-17 20:25:05.005  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 0
+05-17 20:25:05.518   352   352 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+05-17 20:25:05.519   352   352 I android.hardware.vibrator-service.example: Vibrator off
+05-17 20:25:05.520   352   352 I android.hardware.vibrator-service.example: Vibrator perform
+05-17 20:25:05.520   533  1919 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+05-17 20:25:05.521   176   176 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+05-17 20:25:05.522   352   352 I android.hardware.vibrator-service.example: Vibrator perform
+05-17 20:25:05.523   533  1919 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+05-17 20:25:05.523   176   176 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+05-17 20:25:05.527   352   352 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 1
+05-17 20:25:05.527   352   352 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+05-17 20:25:05.551   352   352 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 21
+05-17 20:25:05.551   352   352 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+05-17 20:25:05.575   352   352 I android.hardware.vibrator-service.example: Vibrator off
+05-17 20:25:05.644  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 1
+05-17 20:25:05.737  4268  4268 I ViewInteraction: Performing 'long click' action on view (view.getId() is <2131296753/it.feio.android.omninotes.alpha:id/note_title> and an instance of android.widget.TextView and view.getText() with or without transformation to match: is "title2")
+05-17 20:25:05.745  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 0
+05-17 20:25:06.646  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 1
+05-17 20:25:06.672   533   942 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:06.673   533  1939 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:06.758  4268  4268 I ViewInteraction: Performing 'long click' action on view (view.getId() is <2131296753/it.feio.android.omninotes.alpha:id/note_title> and an instance of android.widget.TextView and view.getText() with or without transformation to match: is "title3")
+05-17 20:25:06.762  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 0
+05-17 20:25:06.812   533   942 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:07.406  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 1
+05-17 20:25:07.413   533  1939 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:07.486  4268  4268 I ViewInteraction: Performing 'single click' action on view (view.getId() is <2131296658/it.feio.android.omninotes.alpha:id/menu_category> and view.getContentDescription() to match resource id <2131820598>[category] with value "Category" and (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle))
+05-17 20:25:07.496   355   460 D AF::Track: interceptBuffer: took 540us to intercept 0 tracks
+05-17 20:25:07.549  4268  4268 D CheckListView: --------------categorize notes in list frag
+05-17 20:25:07.557   533  1939 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:07.563   533  1939 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:07.618  4268  4268 D StrictMode: StrictMode policy violation; ~duration=66 ms: android.os.strictmode.DiskReadViolation
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1596)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1197)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:998)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:838)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:153)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:140)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:231)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.database.AbstractCursor.moveToFirst(AbstractCursor.java:270)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at it.feio.android.omninotes.db.DbHelper.getCategories(DbHelper.java:866)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at it.feio.android.omninotes.ListFragment.categorizeNotes(ListFragment.java:1487)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at it.feio.android.omninotes.ListFragment.performAction(ListFragment.java:854)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at it.feio.android.omninotes.ListFragment$ModeCallback.lambda$onActionItemClicked$0$it-feio-android-omninotes-ListFragment$ModeCallback(ListFragment.java:443)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at it.feio.android.omninotes.ListFragment$ModeCallback$$ExternalSyntheticLambda0.onPasswordValidated(Unknown Source:6)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at it.feio.android.omninotes.BaseActivity.requestPassword(BaseActivity.java:128)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at it.feio.android.omninotes.ListFragment$ModeCallback.onActionItemClicked(ListFragment.java:440)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.app.AppCompatDelegateImpl$ActionModeCallbackWrapperV9.onActionItemClicked(AppCompatDelegateImpl.java:2689)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.view.StandaloneActionMode.onMenuItemSelected(StandaloneActionMode.java:142)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:834)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:158)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:985)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:975)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.widget.ActionMenuView.invokeItem(ActionMenuView.java:623)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.appcompat.view.menu.ActionMenuItemView.onClick(ActionMenuItemView.java:151)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.view.View.performClick(View.java:7448)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.view.View.performClickInternal(View.java:7425)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.view.View.access$3600(View.java:810)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.view.View$PerformClick.run(View.java:28305)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:6)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.action.Tap.access$100(Tap.java:1)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:22)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction.access$100(ViewInteraction.java:1)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:2)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-17 20:25:07.618  4268  4268 D StrictMode: 	at android.os.Looper.loop(Looper.java:223)
+05-17 20:25:07.619  4268  4268 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-17 20:25:07.619  4268  4268 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+05-17 20:25:07.619  4268  4268 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-17 20:25:07.619  4268  4268 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-17 20:25:07.677   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x2be8a0
+05-17 20:25:07.677   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3e28bb000 size 0x2c0000
+05-17 20:25:07.694   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x2be8a0
+05-17 20:25:07.695   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3e44e9000 size 0x2c0000
+05-17 20:25:07.699   533   942 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:07.704   309   343 D goldfish-address-space: allocate: Ask for block of size 0x2be8a0
+05-17 20:25:07.704   309   343 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3e66c9000 size 0x2c0000
+05-17 20:25:07.999  4268  4268 I ViewInteraction: Performing 'single click' action on view an instance of android.widget.TextView and view.getText() equals string from resource id: <2131820926> [remove_category] value: Remove category
+05-17 20:25:08.072  4268  4268 D CheckListView: Closed multiselection contextual menu
+05-17 20:25:08.079   533  1919 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:08.119   355   460 D AF::Track: interceptBuffer: took 3838us to intercept 0 tracks
+05-17 20:25:08.207   533  1919 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:08.655  1219  1325 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-17 20:25:08.655  1219  1325 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-17 20:25:08.662  4268  4268 I ViewInteraction: Performing 'single click' action on view (view.getId() is <2131296753/it.feio.android.omninotes.alpha:id/note_title> and an instance of android.widget.TextView and view.getText() with or without transformation to match: is "title1")
+05-17 20:25:08.669  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 0
+05-17 20:25:08.672  4268  4268 D CheckListView: Changes committed
+05-17 20:25:08.673  4268  4306 D CheckListView: Updated note titled 'title1'
+05-17 20:25:08.685  4268  4306 D CheckListView: Updated note titled 'title2'
+05-17 20:25:08.720  4268  4306 D CheckListView: Updated note titled 'title3'
+05-17 20:25:08.735  4268  4268 D CheckListView: it.feio.android.omninotes.async.bus.NotesUpdatedEvent
+05-17 20:25:08.736  4268  4308 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:08.740  4268  4268 D CheckListView: Notifies AppWidget data changed for widgets []
+05-17 20:25:08.742  4268  4308 V CheckListView: Query: Retrieval finished!
+05-17 20:25:08.742  4268  4308 D CheckListView: Dynamic menu finished counting items
+05-17 20:25:08.742  4268  4268 D CheckListView: Notifies AppWidget data changed for widgets []
+05-17 20:25:08.748  4268  4268 I chatty  : uid=10155(it.feio.android.omninotes.alpha) identical 4 lines
+05-17 20:25:08.749  4268  4268 D CheckListView: Notifies AppWidget data changed for widgets []
+05-17 20:25:08.750  4268  4268 V CheckListView: Notes list: onViewTouchOccurred 1
+05-17 20:25:08.752  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:08.753  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:08.767   533  1919 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:08.784  4268  4268 D CheckListView: Editing note with ID: 1652790303751
+05-17 20:25:08.833  4268  4268 D CheckListView: it.feio.android.omninotes.async.bus.SwitchFragmentEvent
+05-17 20:25:08.883  4268  4268 D CheckListView: it.feio.android.omninotes.async.bus.SwitchFragmentEvent
+05-17 20:25:08.891   533  1451 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:08.896  1219  1219 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+05-17 20:25:09.581  4268  4268 I ViewInteraction: Performing 'single click' action on view (view.getContentDescription() to match resource id <2131820712>[drawer_open] with value "drawer open" and view.getParent() view.getId() is <2131296990/it.feio.android.omninotes.alpha:id/toolbar> and (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle))
+05-17 20:25:09.635  4268  4268 D CheckListView: it.feio.android.omninotes.async.bus.SwitchFragmentEvent
+05-17 20:25:09.645   533  1451 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: com.google.android.gms signature not valid.  Found:
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMw
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: EQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29n
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: bGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEz
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: MzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYw
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: FAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5k
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: cm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtW
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: LgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKke
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: dxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjA
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: sb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/Cx
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: URaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJE
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: qO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/T
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: gt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYD
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: VQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIG
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: A1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: 4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/y
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: zKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCE
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: yj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1S
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: KMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifK
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: Z0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3Wf
+05-17 20:25:09.660  4268  4268 V GoogleSignatureVerifier: MBEmh/9iFBDAaTCK
+05-17 20:25:09.759  4268  4268 D CheckListView: initNotesList intent: null
+05-17 20:25:09.760  4268  4306 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE archived IS NOT 1 AND trashed IS NOT 1  ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:09.767  4268  4306 V CheckListView: Query: Retrieval finished!
+05-17 20:25:09.768  4268  4268 D StrictMode: StrictMode policy violation; ~duration=95 ms: android.os.strictmode.DiskReadViolation
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1596)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:71)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at libcore.io.ForwardingOs.access(ForwardingOs.java:72)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.app.ActivityThread$AndroidOs.access(ActivityThread.java:7533)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:281)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at java.io.File.exists(File.java:815)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:681)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:672)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:628)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:853)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:475)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:188)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at io.nlopez.smartlocation.location.LocationStore.<init>(LocationStore.java:32)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at io.nlopez.smartlocation.location.providers.LocationGooglePlayServicesProvider.init(LocationGooglePlayServicesProvider.java:64)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at io.nlopez.smartlocation.location.providers.LocationGooglePlayServicesWithFallbackProvider.init(LocationGooglePlayServicesWithFallbackProvider.java:45)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at io.nlopez.smartlocation.SmartLocation$LocationControl.<init>(SmartLocation.java:173)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at io.nlopez.smartlocation.SmartLocation.location(SmartLocation.java:67)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at io.nlopez.smartlocation.SmartLocation.location(SmartLocation.java:59)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at it.feio.android.omninotes.utils.GeocodeHelper.stop(GeocodeHelper.java:115)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at it.feio.android.omninotes.DetailFragment.onStop(DetailFragment.java:292)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.Fragment.performStop(Fragment.java:2894)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentStateManager.stop(FragmentStateManager.java:391)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1211)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1356)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager.moveFragmentToExpectedState(FragmentManager.java:1434)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.BackStackRecord.executePopOps(BackStackRecord.java:506)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager.executeOps(FragmentManager.java:2166)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1992)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1947)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1849)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.fragment.app.FragmentManager$4.run(FragmentManager.java:413)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:6)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.action.Tap.access$100(Tap.java:1)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:22)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction.access$100(ViewInteraction.java:1)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:2)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.os.Looper.loop(Looper.java:223)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+05-17 20:25:09.768  4268  4268 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+05-17 20:25:09.775   533  1451 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+05-17 20:25:09.805  4268  4268 W RecyclerView: No adapter attached; skipping layout
+05-17 20:25:09.821  4268  4268 D CheckListView: it.feio.android.omninotes.async.bus.NotesLoadedEvent
+05-17 20:25:09.822  4268  4268 V CheckListView: Started navigation drawer initialization
+05-17 20:25:09.823  4268  4268 V CheckListView: Finished navigation drawer initialization
+05-17 20:25:09.823  4268  4268 V CheckListView: Finished main menu initialization
+05-17 20:25:09.823  4268  4268 V CheckListView: Finished categories menu initialization
+05-17 20:25:09.880  4268  4268 D CheckListView: No Vertical Scrolled
+05-17 20:25:09.945  1219  1325 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-17 20:25:09.945  1219  1325 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-17 20:25:10.028  1219  1325 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+05-17 20:25:10.029  1219  1325 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+05-17 20:25:10.464  4268  4293 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE creation = 1652790303751 ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:10.466  4268  4293 V CheckListView: Query: Retrieval finished!
+05-17 20:25:10.466  4268  4293 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE creation = 1652790303820 ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:10.469  4268  4293 V CheckListView: Query: Retrieval finished!
+05-17 20:25:10.469  4268  4293 V CheckListView: Query: SELECT creation,last_modification,title,content,archived,trashed,alarm,reminder_fired,recurrence_rule,latitude,longitude,address,locked,checklist,category_id,name,description,color FROM notes LEFT JOIN categories USING( category_id)  WHERE creation = 1652790303851 ORDER BY title||content COLLATE NOCASE  ASC
+05-17 20:25:10.471  4268  4293 V CheckListView: Query: Retrieval finished!
+05-17 20:25:10.478   309 13746 D goldfish-address-space: allocate: Ask for block of size 0x510000
+05-17 20:25:10.478   309 13746 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3e01b1000 size 0x511000
+05-17 20:25:10.499  4268  4268 W omninotes.alph: Accessing hidden field Landroid/app/Activity;->mResultCode:I (greylist, reflection, allowed)
+05-17 20:25:10.500  4268  4268 W omninotes.alph: Accessing hidden field Landroid/app/Activity;->mResultData:Landroid/content/Intent; (greylist, reflection, allowed)
+05-17 20:25:10.507  4268  4268 D LifecycleMonitor: Lifecycle status change: it.feio.android.omninotes.MainActivity@cfe5044 in: PAUSED
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.513   533  1939 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.514   533  1939 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.515   533  1939 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+05-17 20:25:10.540   533  4366 D HostConnection: HostConnection::get() New Host Connection established 0xb49d5080, tid 4366
+05-17 20:25:10.543  4268  4293 I TestRunner: finished: removeCategoryFromSelectedNotes(it.feio.android.omninotes.ui.CategoryLifecycleTest)

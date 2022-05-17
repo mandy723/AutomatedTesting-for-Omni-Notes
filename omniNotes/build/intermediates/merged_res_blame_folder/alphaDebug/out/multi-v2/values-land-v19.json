@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-land-v19/values-land-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-land-v19/bools.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "2",
+                        "startOffsets": "790",
+                        "endColumns": "43",
+                        "endOffsets": "831"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                }
+            ]
+        }
+    ]
+}
