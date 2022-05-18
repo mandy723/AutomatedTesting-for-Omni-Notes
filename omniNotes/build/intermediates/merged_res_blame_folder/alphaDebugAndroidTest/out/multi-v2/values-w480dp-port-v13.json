@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugAndroidTestResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugAndroidTestResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+                    "source": "/Users/jbchang/.gradle/caches/transforms-3/056f58578ba2c832ae3dc0d71da0f6e5/transformed/material-1.4.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="it.feio.android.omninotes.ui.CategoryLifecycleTest" tests="1" failures="0" errors="0" skipped="0" time="9.611" timestamp="2022-05-17T12:25:12" hostname="localhost">
-  <properties>
-    <property name="device" value="Pixel_2_API_30(AVD) - 11" />
-    <property name="flavor" value="alpha" />
-    <property name="project" value="omniNotes" />
-  </properties>
-  <testcase name="removeCategoryFromSelectedNotes" classname="it.feio.android.omninotes.ui.CategoryLifecycleTest" time="8.263" />
-</testsuite>

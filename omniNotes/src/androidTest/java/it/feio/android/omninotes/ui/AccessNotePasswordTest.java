@@ -1,0 +1,300 @@
+package it.feio.android.omninotes.ui;
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.Espresso.openActionBarOverflowOrOptionsMenu;
+import static androidx.test.espresso.Espresso.openContextualActionModeOverflowMenu;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withParent;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import static java.lang.Thread.sleep;
+
+import androidx.core.view.GravityCompat;
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.espresso.matcher.ViewMatchers;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.test.filters.LargeTest;
+
+import org.hamcrest.Matchers;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import it.feio.android.omninotes.R;
+import it.feio.android.omninotes.commons.models.BaseNote;
+import it.feio.android.omninotes.models.Note;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class AccessNotePasswordTest extends BaseEspressoTest {
+
+    @Test
+    public void accessNoteWithNewPassword(){
+        Note note1 = createTestNote("Note Title", "This is the content.", 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        onView(withContentDescription("More options")).perform(click());
+
+        onView(withText("Lock")).perform(click());
+
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.id.password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                1)));
+        appCompatEditText.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.id.password_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                2)));
+        appCompatEditText2.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText3 = onView(
+                allOf(withId(R.id.question),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                4)));
+        appCompatEditText3.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText4 = onView(
+                allOf(withId(R.id.answer),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                5)));
+        appCompatEditText4.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText5 = onView(
+                allOf(withId(R.id.answer_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                6)));
+        appCompatEditText5.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        ViewInteraction materialButton = onView(withText("Ok"));
+        materialButton.perform(scrollTo(), click());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        onView(withContentDescription(R.string.drawer_open)).perform(click());
+
+        onView(withText("Note Title")).perform(click());
+
+        ViewInteraction editText4 = onView(withId(R.id.password_request));
+        editText4.perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withText("Ok")).perform(click());
+    }
+
+    @Test
+    public void accessNoteWithNewPasswordConfirmFailed(){
+        Note note1 = createTestNote("Note Title", "This is the content.", 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        onView(withContentDescription("More options")).perform(click());
+
+        onView(withText("Lock")).perform(click());
+
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.id.password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                1)));
+        appCompatEditText.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.id.password_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                2)));
+        appCompatEditText2.perform(scrollTo(), replaceText("abcd"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText3 = onView(
+                allOf(withId(R.id.question),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                4)));
+        appCompatEditText3.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText4 = onView(
+                allOf(withId(R.id.answer),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                5)));
+        appCompatEditText4.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        // Re-enter confirm the correct password and answer
+        ViewInteraction appCompatEditText5 = onView(
+                allOf(withId(R.id.answer_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                6)));
+        appCompatEditText5.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
+
+        ViewInteraction materialButton = onView(withText("Ok"));
+        materialButton.perform(scrollTo(), click());
+
+        ViewInteraction appCompatEditText2Correct = onView(
+                allOf(withId(R.id.password_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                2)));
+        appCompatEditText2Correct.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText5Correct = onView(
+                allOf(withId(R.id.answer_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                6)));
+        appCompatEditText5Correct.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        materialButton.perform(scrollTo(), click());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        onView(withContentDescription(R.string.drawer_open)).perform(click());
+
+        onView(withText("Note Title")).perform(click());
+
+        ViewInteraction editText4 = onView(withId(R.id.password_request));
+        editText4.perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withText("Ok")).perform(click());
+    }
+
+    @Test
+    public void disablePasswordToNote(){
+        Note note1 = createTestNote("Note Title", "This is the content.", 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        onView(withContentDescription("More options")).perform(click());
+
+        onView(withText("Lock")).perform(click());
+
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.id.password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                1)));
+        appCompatEditText.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.id.password_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                2)));
+        appCompatEditText2.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText3 = onView(
+                allOf(withId(R.id.question),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                4)));
+        appCompatEditText3.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText4 = onView(
+                allOf(withId(R.id.answer),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                5)));
+        appCompatEditText4.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText5 = onView(
+                allOf(withId(R.id.answer_check),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.password_root),
+                                        0),
+                                6)));
+        appCompatEditText5.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
+
+        ViewInteraction materialButton = onView(withText("Ok"));
+        materialButton.perform(scrollTo(), click());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        onView(withContentDescription(R.string.drawer_open)).perform(click());
+
+        onView(withText("Note Title")).perform(click());
+
+        ViewInteraction editText4 = onView(withId(R.id.password_request));
+        editText4.perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withText("Ok")).perform(click());
+
+        onView(withContentDescription("More options")).perform(click());
+
+        onView(withText("Unlock")).perform(click());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        onView(withContentDescription(R.string.drawer_open)).perform(click());
+
+        onView(withText("Note Title")).perform(click());
+    }
+}

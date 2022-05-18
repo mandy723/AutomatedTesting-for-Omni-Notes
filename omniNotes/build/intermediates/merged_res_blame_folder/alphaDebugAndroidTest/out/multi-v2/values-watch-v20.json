@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugAndroidTestResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugAndroidTestResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/7dac3db9c05671a6f389b2fd44cefe8d/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/jbchang/.gradle/caches/transforms-3/7dac3db9c05671a6f389b2fd44cefe8d/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

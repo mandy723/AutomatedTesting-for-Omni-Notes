@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-lv-rLV/values-lv-rLV.xml",
+            "outputFile": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-lv-rLV/values-lv-rLV.xml",
             "map": [
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-lv-rLV/arrays.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-lv-rLV/arrays.xml",
                     "from": {
                         "startLines": "48,32,37,43,19,26",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-lv-rLV/strings.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-lv-rLV/strings.xml",
                     "from": {
                         "startLines": "205,94,21,71,148,90,58,38,168,60,62,87,235,63,46,92,103,102,97,99,96,100,98,95,294,194,122,124,125,121,120,155,86,135,246,247,43,26,146,163,128,127,129,40,199,84,81,85,82,83,36,65,171,42,64,101,105,118,106,61,141,156,93,48,49,173,174,137,165,167,143,79,144,147,159,215,214,220,78,218,169,184,188,186,66,175,166,217,216,219,179,197,111,41,67,72,112,170,230,130,45,75,164,80,108,119,138,158,132,172,52,50,37,33,51,34,47,153,110,109,44,176,140,162,241,244,242,191,192,190,193,196,145,68,73,134,157,107,123,185,189,187,69,70,204,139,27,113,114,24,25,182,181,56,91,200,201,243,269,271,270,262,263,202,224,227,264,265,222,253,254,228,273,275,274,207,266,268,267,209,210,211,236,248,225,249,250,229,239,240,238,237,226,203,252,221,223,272,206,276,277,260,261,258,259,231,232,278,255,256,257,212,213,208,251,233,234,28,53,54,149,150,154,126,142,55,59,281,283,280,282,74,76,136,180,88,89,177,57,195,22,117,104,23,116,133,20,160,161,291,289,288,287,286,290,285,30,31,32,39,29,115,35,131,183,77,152,151,178,245",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

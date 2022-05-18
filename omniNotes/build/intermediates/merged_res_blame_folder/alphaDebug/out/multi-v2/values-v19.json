@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-v19/values-v19.xml",
+            "outputFile": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-v19/values-v19.xml",
             "map": [
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-v19/bools.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-v19/bools.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "2",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-v19/dimens.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-v19/dimens.xml",
                     "from": {
                         "startLines": "19,18,20",
                         "startColumns": "2,2,2",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-v19/styles.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-v19/styles.xml",
                     "from": {
                         "startLines": "18",
                         "startColumns": "2",

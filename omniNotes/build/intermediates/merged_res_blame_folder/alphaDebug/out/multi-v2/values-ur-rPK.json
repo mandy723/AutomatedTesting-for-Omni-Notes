@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-ur-rPK/values-ur-rPK.xml",
+            "outputFile": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-ur-rPK/values-ur-rPK.xml",
             "map": [
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-ur-rPK/strings.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-ur-rPK/strings.xml",
                     "from": {
                         "startLines": "96,20,72,103,92,58,37,124,60,62,89,63,46,94,99,98,100,97,163,111,88,42,25,119,39,85,86,82,87,83,84,35,65,127,41,64,61,112,95,48,49,129,130,121,123,80,115,137,45,79,125,141,145,143,66,102,131,122,135,40,67,73,126,44,76,120,81,114,128,52,50,36,32,51,33,47,108,43,132,118,149,150,147,148,151,69,74,113,142,146,144,70,71,26,23,24,139,138,56,93,27,53,54,104,105,109,110,55,59,155,157,154,156,75,77,136,90,91,133,57,68,21,101,22,19,116,117,160,159,29,30,31,38,28,34,140,78,107,106,134",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/1d7f4507001d3d54a5d5807e83411f4a/transformed/jetified-sublimepickerlibrary-2.1.2/res/values-ur-rPK/values-ur-rPK.xml",
-                    "from": {
-                        "startLines": "3,4,5,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "153,225,314,449,512,572,632,689",
-                        "endColumns": "71,88,93,62,59,59,56,66",
-                        "endOffsets": "220,309,403,507,567,627,684,751"
-                    },
-                    "to": {
-                        "startLines": "68,74,98,138,139,140,143,184",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3181,3616,5031,7727,7790,7850,8024,10347",
-                        "endColumns": "71,88,93,62,59,59,56,66",
-                        "endOffsets": "3248,3700,5120,7785,7845,7905,8076,10409"
-                    }
-                },
-                {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-ur-rPK/arrays.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-ur-rPK/arrays.xml",
                     "from": {
                         "startLines": "47,31,36,42,18,25",
                         "startColumns": "4,4,4,4,4,4",
@@ -54,6 +37,23 @@
                         "endLines": "7,12,18,23,30,36",
                         "endColumns": "19,19,19,19,19,19",
                         "endOffsets": "284,493,674,832,1057,1272"
+                    }
+                },
+                {
+                    "source": "/Users/jbchang/.gradle/caches/transforms-3/d422b63f3dd2ad3d699e0c68f60022f9/transformed/jetified-sublimepickerlibrary-2.1.2/res/values-ur-rPK/values-ur-rPK.xml",
+                    "from": {
+                        "startLines": "3,4,5,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "153,225,314,449,512,572,632,689",
+                        "endColumns": "71,88,93,62,59,59,56,66",
+                        "endOffsets": "220,309,403,507,567,627,684,751"
+                    },
+                    "to": {
+                        "startLines": "68,74,98,138,139,140,143,184",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3181,3616,5031,7727,7790,7850,8024,10347",
+                        "endColumns": "71,88,93,62,59,59,56,66",
+                        "endOffsets": "3248,3700,5120,7785,7845,7905,8076,10409"
                     }
                 }
             ]

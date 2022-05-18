@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-sw720dp-land-v21/values-sw720dp-land-v21.xml",
+            "outputFile": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-sw720dp-land-v21/values-sw720dp-land-v21.xml",
             "map": [
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-sw720dp-land-v21/dimens.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-sw720dp-land-v21/dimens.xml",
                     "from": {
                         "startLines": "25,23",
                         "startColumns": "2,2",

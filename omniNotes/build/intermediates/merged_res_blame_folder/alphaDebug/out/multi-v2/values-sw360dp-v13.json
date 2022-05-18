@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/JohnnyLee/Documents/Class/大四/SoftwareTesting/SoftwareTestingAndVerification/omniNotes/src/main/res/values-sw360dp/dimens.xml",
+                    "source": "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/src/main/res/values-sw360dp/dimens.xml",
                     "from": {
                         "startLines": "18",
                         "startColumns": "2",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/JohnnyLee/.gradle/caches/transforms-3/791b053a451db3f0ba559f5ee8d8acc1/transformed/preference-1.1.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/Users/jbchang/.gradle/caches/transforms-3/791b053a451db3f0ba559f5ee8d8acc1/transformed/preference-1.1.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
