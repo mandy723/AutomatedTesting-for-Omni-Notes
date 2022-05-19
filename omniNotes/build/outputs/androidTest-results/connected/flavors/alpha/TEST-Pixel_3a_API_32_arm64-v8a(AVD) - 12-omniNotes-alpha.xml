@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="it.feio.android.omninotes.ui.accessOmniNotePasswordTest" tests="1" failures="0" errors="0" skipped="0" time="11.656" timestamp="2022-05-18T15:44:34" hostname="localhost">
+<testsuite name="it.feio.android.omninotes.ui.AddTagsToNoteTest" tests="1" failures="0" errors="0" skipped="0" time="6.507" timestamp="2022-05-19T07:47:00" hostname="localhost">
   <properties>
     <property name="device" value="Pixel_3a_API_32_arm64-v8a(AVD) - 12" />
     <property name="flavor" value="alpha" />
     <property name="project" value="omniNotes" />
   </properties>
-  <testcase name="accessAppWithPasswordTest" classname="it.feio.android.omninotes.ui.accessOmniNotePasswordTest" time="10.371" />
+  <testcase name="charOnly" classname="it.feio.android.omninotes.ui.AddTagsToNoteTest" time="5.353" />
 </testsuite>

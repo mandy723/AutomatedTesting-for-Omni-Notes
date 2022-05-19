@@ -1,0 +1,468 @@
+package it.feio.android.omninotes.ui;
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertEquals;
+
+import static java.lang.Thread.sleep;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.test.filters.LargeTest;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import it.feio.android.omninotes.R;
+import it.feio.android.omninotes.db.DbHelper;
+import it.feio.android.omninotes.models.Note;
+import it.feio.android.omninotes.models.Tag;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class AddTagsToNoteTest extends BaseEspressoTest{
+
+    @Test
+    public void numTagSpecTag(){
+        String pre_content = "This is the content.";
+        Note note1 = createTestNote("Note Title", pre_content, 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        String added_tag_content = pre_content + "\n" + "#1tag!abc";
+        ViewInteraction enter_tag = onView(
+                allOf(withId(R.id.detail_content),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.fragment_detail_content),
+                                        1),
+                                0)));
+        enter_tag.perform(scrollTo(), replaceText(added_tag_content), closeSoftKeyboard());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction frameLayout = onView(
+                allOf(withId(R.id.root),
+                        childAtPosition(
+                                allOf(withId(R.id.list),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.FrameLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        frameLayout.perform(click());
+
+        ViewInteraction actionMenuItemView = onView(
+                allOf(withId(R.id.menu_tag), withContentDescription("Add tags"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.toolbar),
+                                        1),
+                                2),
+                        isDisplayed()));
+        actionMenuItemView.perform(click());
+
+        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+
+        assertEquals(0, tags.size());
+    }
+
+    @Test
+    public void specTagNumTag(){
+        String pre_content = "This is the content.";
+        Note note1 = createTestNote("Note Title", pre_content, 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        String added_tag_content = pre_content + "\n" + "@tag2abc";
+        ViewInteraction enter_tag = onView(
+                allOf(withId(R.id.detail_content),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.fragment_detail_content),
+                                        1),
+                                0)));
+        enter_tag.perform(scrollTo(), replaceText(added_tag_content), closeSoftKeyboard());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction frameLayout = onView(
+                allOf(withId(R.id.root),
+                        childAtPosition(
+                                allOf(withId(R.id.list),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.FrameLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        frameLayout.perform(click());
+
+        ViewInteraction actionMenuItemView = onView(
+                allOf(withId(R.id.menu_tag), withContentDescription("Add tags"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.toolbar),
+                                        1),
+                                2),
+                        isDisplayed()));
+        actionMenuItemView.perform(click());
+
+        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+
+        assertEquals(0, tags.size());
+    }
+
+    @Test
+    public void tagNumSpec(){
+        String pre_content = "This is the content.";
+        Note note1 = createTestNote("Note Title", pre_content, 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        String added_tag_content = pre_content + "\n" + "#tag2@";
+        ViewInteraction enter_tag = onView(
+                allOf(withId(R.id.detail_content),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.fragment_detail_content),
+                                        1),
+                                0)));
+        enter_tag.perform(scrollTo(), replaceText(added_tag_content), closeSoftKeyboard());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction frameLayout = onView(
+                allOf(withId(R.id.root),
+                        childAtPosition(
+                                allOf(withId(R.id.list),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.FrameLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        frameLayout.perform(click());
+
+        ViewInteraction actionMenuItemView = onView(
+                allOf(withId(R.id.menu_tag), withContentDescription("Add tags"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.toolbar),
+                                        1),
+                                2),
+                        isDisplayed()));
+        actionMenuItemView.perform(click());
+
+        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+
+        assertEquals(1, tags.size());
+        assertEquals("#tag2", tags.get(0).toString());
+    }
+
+    @Test
+    public void tagNum(){
+        String pre_content = "This is the content.";
+        Note note1 = createTestNote("Note Title", pre_content, 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        String added_tag_content = pre_content + "\n" + "#tag3";
+        ViewInteraction enter_tag = onView(
+                allOf(withId(R.id.detail_content),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.fragment_detail_content),
+                                        1),
+                                0)));
+        enter_tag.perform(scrollTo(), replaceText(added_tag_content), closeSoftKeyboard());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction frameLayout = onView(
+                allOf(withId(R.id.root),
+                        childAtPosition(
+                                allOf(withId(R.id.list),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.FrameLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        frameLayout.perform(click());
+
+        ViewInteraction actionMenuItemView = onView(
+                allOf(withId(R.id.menu_tag), withContentDescription("Add tags"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.toolbar),
+                                        1),
+                                2),
+                        isDisplayed()));
+        actionMenuItemView.perform(click());
+
+        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+
+        assertEquals(1, tags.size());
+        assertEquals("#tag3", tags.get(0).toString());
+    }
+
+    @Test
+    public void tag(){
+        String pre_content = "This is the content.";
+        Note note1 = createTestNote("Note Title", pre_content, 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        String added_tag_content = pre_content + "\n" + "#tag";
+        ViewInteraction enter_tag = onView(
+                allOf(withId(R.id.detail_content),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.fragment_detail_content),
+                                        1),
+                                0)));
+        enter_tag.perform(scrollTo(), replaceText(added_tag_content), closeSoftKeyboard());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction frameLayout = onView(
+                allOf(withId(R.id.root),
+                        childAtPosition(
+                                allOf(withId(R.id.list),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.FrameLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        frameLayout.perform(click());
+
+        ViewInteraction actionMenuItemView = onView(
+                allOf(withId(R.id.menu_tag), withContentDescription("Add tags"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.toolbar),
+                                        1),
+                                2),
+                        isDisplayed()));
+        actionMenuItemView.perform(click());
+
+        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+
+        assertEquals(1, tags.size());
+        assertEquals("#tag", tags.get(0).toString());
+    }
+
+    @Test
+    public void tagNumTag(){
+        String pre_content = "This is the content.";
+        Note note1 = createTestNote("Note Title", pre_content, 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        String added_tag_content = pre_content + "\n" + "#tag2tag";
+        ViewInteraction enter_tag = onView(
+                allOf(withId(R.id.detail_content),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.fragment_detail_content),
+                                        1),
+                                0)));
+        enter_tag.perform(scrollTo(), replaceText(added_tag_content), closeSoftKeyboard());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction frameLayout = onView(
+                allOf(withId(R.id.root),
+                        childAtPosition(
+                                allOf(withId(R.id.list),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.FrameLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        frameLayout.perform(click());
+
+        ViewInteraction actionMenuItemView = onView(
+                allOf(withId(R.id.menu_tag), withContentDescription("Add tags"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.toolbar),
+                                        1),
+                                2),
+                        isDisplayed()));
+        actionMenuItemView.perform(click());
+
+        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+
+        assertEquals(1, tags.size());
+        assertEquals("#tag2tag", tags.get(0).toString());
+    }
+
+    @Test
+    public void charOnly(){
+        String pre_content = "This is the content.";
+        Note note1 = createTestNote("Note Title", pre_content, 0);
+
+        onView(withText("Note Title")).perform(click());
+
+        String added_tag_content = pre_content + "\n" + "#a";
+        ViewInteraction enter_tag = onView(
+                allOf(withId(R.id.detail_content),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.fragment_detail_content),
+                                        1),
+                                0)));
+        enter_tag.perform(scrollTo(), replaceText(added_tag_content), closeSoftKeyboard());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction frameLayout = onView(
+                allOf(withId(R.id.root),
+                        childAtPosition(
+                                allOf(withId(R.id.list),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.FrameLayout")),
+                                                0)),
+                                0),
+                        isDisplayed()));
+        frameLayout.perform(click());
+
+        ViewInteraction actionMenuItemView = onView(
+                allOf(withId(R.id.menu_tag), withContentDescription("Add tags"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.toolbar),
+                                        1),
+                                2),
+                        isDisplayed()));
+        actionMenuItemView.perform(click());
+
+        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+
+        assertEquals(0, tags.size());
+    }
+}

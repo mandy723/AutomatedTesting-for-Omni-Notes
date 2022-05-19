@@ -147,7 +147,7 @@ public class AccessOmniNotePasswordTest extends BaseEspressoTest{
 
         // Waiting a little to ensure Eventbus post propagation
         try {
-            sleep(2000);
+            sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -160,9 +160,76 @@ public class AccessOmniNotePasswordTest extends BaseEspressoTest{
 
         // Waiting a little to ensure Eventbus post propagation
         try {
-            sleep(2000);
+            sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public void accessAppWithoutPasswordTest() {
+        accessAppWithPasswordTest();
+
+        ViewInteraction appCompatImageButton = onView(
+                allOf(withContentDescription("drawer open"),
+                        childAtPosition(
+                                allOf(withId(R.id.toolbar),
+                                        childAtPosition(
+                                                withClassName(is("android.widget.RelativeLayout")),
+                                                0)),
+                                1),
+                        isDisplayed()));
+        appCompatImageButton.perform(click());
+
+        ViewInteraction press_setting = onView(
+                allOf(withId(R.id.settings_view),
+                        childAtPosition(
+                                allOf(withId(R.id.left_drawer),
+                                        childAtPosition(
+                                                withId(R.id.navigation_drawer),
+                                                0)),
+                                2)));
+        press_setting.perform(scrollTo(), click());
+
+        ViewInteraction press_data = onView(
+                childAtPosition(
+                        withId(android.R.id.list_container),
+                        0));
+        press_data.perform(actionOnItemAtPosition(1, click()));
+
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
+        ViewInteraction disable_request_password = onView(
+                childAtPosition(
+                        withId(android.R.id.list_container),
+                        0));
+        disable_request_password.perform(actionOnItemAtPosition(2, click()));
+
+        ViewInteraction enter_password = onView(withId(R.id.password_request));
+        enter_password.perform(replaceText("aa"), closeSoftKeyboard());
+        onView(withText("Ok")).perform(click());
+
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        pressBackUnconditionally();
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        activityRule.finishActivity();
+        activityRule.launchActivity(new Intent());
     }
 }

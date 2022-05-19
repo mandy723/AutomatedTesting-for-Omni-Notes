@@ -1,20 +1,20 @@
-# 2022-05-18T15:44:34.646Z:
+# 2022-05-19T07:47:01.032Z:
 test_suite_meta_data {
   scheduled_test_case_count: 1
 }
 test_status: PASSED
 test_result {
   test_case {
-    test_class: "accessOmniNotePasswordTest"
+    test_class: "AddTagsToNoteTest"
     test_package: "it.feio.android.omninotes.ui"
-    test_method: "accessAppWithPasswordTest"
+    test_method: "charOnly"
     start_time {
-      seconds: 1652888662
-      nanos: 930000000
+      seconds: 1652946414
+      nanos: 432000000
     }
     end_time {
-      seconds: 1652888673
-      nanos: 307000000
+      seconds: 1652946419
+      nanos: 809000000
     }
   }
   test_status: PASSED
@@ -24,7 +24,7 @@ test_result {
       namespace: "android"
     }
     source_path {
-      path: "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/outputs/androidTest-results/connected/flavors/alpha/Pixel_3a_API_32_arm64-v8a(AVD) - 12/logcat-it.feio.android.omninotes.ui.accessOmniNotePasswordTest-accessAppWithPasswordTest.txt"
+      path: "/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/outputs/androidTest-results/connected/flavors/alpha/Pixel_3a_API_32_arm64-v8a(AVD) - 12/logcat-it.feio.android.omninotes.ui.AddTagsToNoteTest-charOnly.txt"
     }
   }
   output_artifact {
