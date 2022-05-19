@@ -211,76 +211,7 @@ public class AccessNotePasswordTest extends BaseEspressoTest {
 
     @Test
     public void disablePasswordToNote(){
-        Note note1 = createTestNote("Note Title", "This is the content.", 0);
-
-        onView(withText("Note Title")).perform(click());
-
-        onView(withContentDescription("More options")).perform(click());
-
-        onView(withText("Lock")).perform(click());
-
-        ViewInteraction appCompatEditText = onView(
-                allOf(withId(R.id.password),
-                        childAtPosition(
-                                childAtPosition(
-                                        withId(R.id.password_root),
-                                        0),
-                                1)));
-        appCompatEditText.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
-
-        ViewInteraction appCompatEditText2 = onView(
-                allOf(withId(R.id.password_check),
-                        childAtPosition(
-                                childAtPosition(
-                                        withId(R.id.password_root),
-                                        0),
-                                2)));
-        appCompatEditText2.perform(scrollTo(), replaceText("abc"), closeSoftKeyboard());
-
-        ViewInteraction appCompatEditText3 = onView(
-                allOf(withId(R.id.question),
-                        childAtPosition(
-                                childAtPosition(
-                                        withId(R.id.password_root),
-                                        0),
-                                4)));
-        appCompatEditText3.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
-
-        ViewInteraction appCompatEditText4 = onView(
-                allOf(withId(R.id.answer),
-                        childAtPosition(
-                                childAtPosition(
-                                        withId(R.id.password_root),
-                                        0),
-                                5)));
-        appCompatEditText4.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
-
-        ViewInteraction appCompatEditText5 = onView(
-                allOf(withId(R.id.answer_check),
-                        childAtPosition(
-                                childAtPosition(
-                                        withId(R.id.password_root),
-                                        0),
-                                6)));
-        appCompatEditText5.perform(scrollTo(), replaceText("ab"), closeSoftKeyboard());
-
-        ViewInteraction materialButton = onView(withText("Ok"));
-        materialButton.perform(scrollTo(), click());
-
-        // Waiting a little to ensure Eventbus post propagation
-        try {
-            sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        onView(withContentDescription(R.string.drawer_open)).perform(click());
-
-        onView(withText("Note Title")).perform(click());
-
-        ViewInteraction editText4 = onView(withId(R.id.password_request));
-        editText4.perform(replaceText("abc"), closeSoftKeyboard());
-        onView(withText("Ok")).perform(click());
+        accessNoteWithNewPassword();
 
         onView(withContentDescription("More options")).perform(click());
 

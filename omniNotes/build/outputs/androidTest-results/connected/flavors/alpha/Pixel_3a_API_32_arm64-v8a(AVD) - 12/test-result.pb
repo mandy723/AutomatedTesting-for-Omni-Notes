@@ -1,10 +1,10 @@
 
-À
-W
-AddTagsToNoteTestit.feio.android.omninotes.uicharOnly2îë—”€˜ÿÍ:óë—”À¸á"ù
+ã
+h
+AccessNotePasswordTestit.feio.android.omninotes.uidisablePasswordToNote2Şƒ˜”€İÎ¬:íƒ˜”À™²+"‹
 
-logcatandroidã
-à/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/outputs/androidTest-results/connected/flavors/alpha/Pixel_3a_API_32_arm64-v8a(AVD) - 12/logcat-it.feio.android.omninotes.ui.AddTagsToNoteTest-charOnly.txt"Ê
+logcatandroidõ
+ò/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/outputs/androidTest-results/connected/flavors/alpha/Pixel_3a_API_32_arm64-v8a(AVD) - 12/logcat-it.feio.android.omninotes.ui.AccessNotePasswordTest-disablePasswordToNote.txt"Ê
 
 device-infoandroid¯
 ¬/Users/jbchang/Desktop/SoftwareTestingAndVerification/omniNotes/build/outputs/androidTest-results/connected/flavors/alpha/Pixel_3a_API_32_arm64-v8a(AVD) - 12/device-info.pb"Ë

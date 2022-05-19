@@ -1,22 +1,22 @@
-INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.AddTagsToNoteTest
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.AccessNotePasswordTest
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
 INSTRUMENTATION_STATUS: numtests=1
 INSTRUMENTATION_STATUS: stream=
-it.feio.android.omninotes.ui.AddTagsToNoteTest:
-INSTRUMENTATION_STATUS: test=charOnly
+it.feio.android.omninotes.ui.AccessNotePasswordTest:
+INSTRUMENTATION_STATUS: test=disablePasswordToNote
 INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.AddTagsToNoteTest
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.AccessNotePasswordTest
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
 INSTRUMENTATION_STATUS: numtests=1
 INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: test=charOnly
+INSTRUMENTATION_STATUS: test=disablePasswordToNote
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_RESULT: coverageFilePath=/data/data/it.feio.android.omninotes.alpha/coverage.ec
 INSTRUMENTATION_RESULT: stream=
 
-Time: 5.399
+Time: 15.175
 
 OK (1 test)
 
