@@ -25,7 +25,7 @@ import it.feio.android.omninotes.ui.BaseEspressoTest;
 public class TC09DiscardNoteChangesTest extends BaseEspressoTest{
     @Test
     public void discardNoteChanges() {
-        createNoteByUI();
+        createNoteByUI("TestTitle", "TestContent");
 
         onView(withText("TestTitle")).perform(click());
         onView(withText("TestContent")).perform(typeText("ModifiedTest"));
@@ -38,12 +38,4 @@ public class TC09DiscardNoteChangesTest extends BaseEspressoTest{
         onView(withId(R.id.detail_content)).check(matches(not(withText("TestContentModifiedTest"))));
     }
 
-    private void createNoteByUI() {
-        onView(withId(R.id.fab_note)).perform(click());
-        onView(withText("Text note")).perform(click());
-        onView(withId(R.id.detail_title)).perform(click()).perform(typeText("TestTitle"));
-        onView(withId(R.id.detail_content)).perform(click()).perform(typeText("TestContent"));
-        navigateUp();
-
-    }
 }

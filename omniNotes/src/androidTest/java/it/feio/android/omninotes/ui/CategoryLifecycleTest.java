@@ -26,9 +26,7 @@ import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
 import static androidx.test.espresso.assertion.ViewAssertions.doesNotExist;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
-import static androidx.test.espresso.matcher.ViewMatchers.isClickable;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static androidx.test.espresso.matcher.ViewMatchers.isNotClickable;
 import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
@@ -36,7 +34,6 @@ import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static java.lang.Thread.sleep;
 import static org.hamcrest.Matchers.allOf;
-import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
@@ -58,6 +55,8 @@ import it.feio.android.omninotes.models.Note;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
+
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
@@ -112,6 +111,7 @@ public class CategoryLifecycleTest extends BaseEspressoTest {
 
     assertEquals(1, categories.size());
     assertEquals(categoryName, categories.get(0).getName());
+    assertEquals(categories.get(0), dbHelper.getNotesActive().get(0).getCategory());
   }
 
   @Test
@@ -130,56 +130,60 @@ public class CategoryLifecycleTest extends BaseEspressoTest {
   @Test
   public void removeCategoryFromSelectedNotes() {
     String categoryName = "Cat_" + Calendar.getInstance().getTimeInMillis();
-    Category category = createCategory(categoryName);
+    List<String> noteTitleList = new ArrayList<>();
+    noteTitleList.add("title1");
+    noteTitleList.add("title2");
+    noteTitleList.add("title3");
 
-    Note note1 = createTestNote("title1", "", 0);
-    Note note2 = createTestNote("title2", "", 0);
-    Note note3 = createTestNote("title3", "", 0);
+    createNoteByUI(noteTitleList.get(0), "test");
+    createNoteByUI(noteTitleList.get(1), "test");
+    createNoteByUI(noteTitleList.get(2), "test");
 
-    categorizeNote(note1, category);
-    categorizeNote(note2, category);
-    categorizeNote(note3, category);
+    categorizeSelectedNotes(categoryName, noteTitleList);
 
-    onView(allOf(withId(R.id.note_title), withText("title1"))).perform(longClick());
-    onView(allOf(withId(R.id.note_title), withText("title2"))).perform(longClick());
-    onView(allOf(withId(R.id.note_title), withText("title3"))).perform(longClick());
+    onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(0)))).perform(longClick());
+    onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(1)))).perform(longClick());
+    onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(2)))).perform(longClick());
 
     onView(allOf(withId(R.id.menu_category), withContentDescription(R.string.category), isDisplayed()))
             .perform(click());
 
     onView((withText(R.string.remove_category))).perform(click());
 
-    onView(allOf(withId(R.id.note_title), withText("title1"))).perform(click());
+    onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(0)))).perform(click());
     onView(allOf(withContentDescription(R.string.drawer_open),
             withParent(withId(R.id.toolbar)),
             isDisplayed())).perform(click());
 
+    Category category = dbHelper.getCategories().get(0);
+    List<Note> notes = dbHelper.getNotesActive();
     assertEquals(0, getCategorizedCountByCategory(category));
-    assertNull(getNoteById(note1.get_id()).getCategory());
-    assertNull(getNoteById(note2.get_id()).getCategory());
-    assertNull(getNoteById(note3.get_id()).getCategory());
+    assertNull(getNoteById(notes.get(0).get_id()).getCategory());
+    assertNull(getNoteById(notes.get(1).get_id()).getCategory());
+    assertNull(getNoteById(notes.get(2).get_id()).getCategory());
   }
 
   @Test
   public void viewNotesByCategory() {
-    Category category1 = createCategory("Cate1");
-    Category category2 = createCategory("Cate2");
+    List<String> noteTitleList = new ArrayList<>();
+    noteTitleList.add("title1");
+    noteTitleList.add("title2");
+    noteTitleList.add("title3");
 
-    Note note1 = createTestNote("title1", "", 0);
-    Note note2 = createTestNote("title2", "", 0);
-    Note note3 = createTestNote("title3", "", 0);
+    createNoteByUI(noteTitleList.get(0), "test");
+    createNoteByUI(noteTitleList.get(1), "test");
+    createNoteByUI(noteTitleList.get(2), "test");
 
-    categorizeNote(note1, category1);
-    categorizeNote(note2, category1);
-    categorizeNote(note3, category2);
+    categorizeSelectedNotes("Cate1", noteTitleList.subList(0, 2));
+    categorizeSelectedNotes("Cate2", noteTitleList.subList(2, 3));
 
     onView(allOf(withContentDescription(R.string.drawer_open),
             withParent(withId(R.id.toolbar)))).perform(click());
 
     onView(allOf(withId(R.id.title), withText("Cate1"))).perform(click());
 
-    onView(allOf(withId(R.id.note_title), withText("title1"))).check(matches(withText("title1")));
-    onView(allOf(withId(R.id.note_title), withText("title2"))).check(matches(withText("title2")));
+    onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(0)))).check(matches(withText("title1")));
+    onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(1)))).check(matches(withText("title2")));
 
     onView(allOf(withContentDescription(R.string.drawer_close),
             withParent(withId(R.id.toolbar)),
@@ -187,7 +191,7 @@ public class CategoryLifecycleTest extends BaseEspressoTest {
 
     onView(allOf(withId(R.id.title), withText("Cate2"))).perform(click());
 
-    onView(allOf(withId(R.id.note_title), withText("title3"))).check(matches(withText("title3")));
+    onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(2)))).check(matches(withText("title3")));
   }
 
   @Test
@@ -239,7 +243,11 @@ public class CategoryLifecycleTest extends BaseEspressoTest {
   @Test
   public void categoryDeletion() {
     String categoryName = "Cat_" + Calendar.getInstance().getTimeInMillis();
-    createCategory(categoryName);
+    List<String> noteTitleList = new ArrayList<>();
+    noteTitleList.add("title1");
+
+    createNoteByUI(noteTitleList.get(0), "");
+    categorizeSelectedNotes(categoryName, noteTitleList);
 
     onView(allOf(withContentDescription(R.string.drawer_open),
         withParent(withId(R.id.toolbar)),

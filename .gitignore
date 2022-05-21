@@ -55,6 +55,7 @@ captures
 
 # private properties file
 omniNotes/gradle.properties
+gradle.properties
 
 *.log
 
