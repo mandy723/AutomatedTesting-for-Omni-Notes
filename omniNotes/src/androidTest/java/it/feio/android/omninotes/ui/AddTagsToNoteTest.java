@@ -1,17 +1,27 @@
 package it.feio.android.omninotes.ui;
 
+import static androidx.test.espresso.Espresso.getIdlingResources;
+import static androidx.test.espresso.Espresso.onData;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.assertion.ViewAssertions.doesNotExist;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition;
+import static androidx.test.espresso.matcher.RootMatchers.isDialog;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.contains;
+import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.not;
 import static org.junit.Assert.assertEquals;
 
 import static java.lang.Thread.sleep;
@@ -38,7 +48,7 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
     @Test
     public void numTagSpecTag(){
         String pre_content = "This is the content.";
-        Note note1 = createTestNote("Note Title", pre_content, 0);
+        createNoteByUI("Note Title", pre_content);
 
         onView(withText("Note Title")).perform(click());
 
@@ -91,7 +101,8 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+        onView(withText(R.string.select_tags)).check(doesNotExist());
+        List<Tag> tags = DbHelper.getInstance().getTags();
 
         assertEquals(0, tags.size());
     }
@@ -99,11 +110,11 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
     @Test
     public void specTagNumTag(){
         String pre_content = "This is the content.";
-        Note note1 = createTestNote("Note Title", pre_content, 0);
+        createNoteByUI("Note Title", pre_content);
 
         onView(withText("Note Title")).perform(click());
 
-        String added_tag_content = pre_content + "\n" + "@tag2abc";
+        String added_tag_content = pre_content + "\n" + "#@tag2abc";
         ViewInteraction enter_tag = onView(
                 allOf(withId(R.id.detail_content),
                         childAtPosition(
@@ -152,7 +163,8 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+        onView(withText(R.string.select_tags)).check(doesNotExist());
+        List<Tag> tags = DbHelper.getInstance().getTags();
 
         assertEquals(0, tags.size());
     }
@@ -160,7 +172,7 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
     @Test
     public void tagNumSpec(){
         String pre_content = "This is the content.";
-        Note note1 = createTestNote("Note Title", pre_content, 0);
+        createNoteByUI("Note Title", pre_content);
 
         onView(withText("Note Title")).perform(click());
 
@@ -213,7 +225,14 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+        onView(withText(R.string.select_tags)).inRoot(isDialog());
+        ViewInteraction tag_retrieve = onView(
+                allOf(withId(R.id.md_title), withText("tag2 (1)"),
+                        withParent(withParent(withId(R.id.md_contentRecyclerView))),
+                        isDisplayed()));
+        tag_retrieve.check(matches(withText("tag2 (1)")));
+
+        List<Tag> tags = DbHelper.getInstance().getTags();
 
         assertEquals(1, tags.size());
         assertEquals("#tag2", tags.get(0).toString());
@@ -222,7 +241,7 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
     @Test
     public void tagNum(){
         String pre_content = "This is the content.";
-        Note note1 = createTestNote("Note Title", pre_content, 0);
+        createNoteByUI("Note Title", pre_content);
 
         onView(withText("Note Title")).perform(click());
 
@@ -275,7 +294,14 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+        onView(withText(R.string.select_tags)).inRoot(isDialog());
+        ViewInteraction tag_retrieve = onView(
+                allOf(withId(R.id.md_title), withText("tag3 (1)"),
+                        withParent(withParent(withId(R.id.md_contentRecyclerView))),
+                        isDisplayed()));
+        tag_retrieve.check(matches(withText("tag3 (1)")));
+
+        List<Tag> tags = DbHelper.getInstance().getTags();
 
         assertEquals(1, tags.size());
         assertEquals("#tag3", tags.get(0).toString());
@@ -284,7 +310,7 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
     @Test
     public void tag(){
         String pre_content = "This is the content.";
-        Note note1 = createTestNote("Note Title", pre_content, 0);
+        createNoteByUI("Note Title", pre_content);
 
         onView(withText("Note Title")).perform(click());
 
@@ -337,7 +363,14 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+        onView(withText(R.string.select_tags)).inRoot(isDialog());
+        ViewInteraction tag_retrieve = onView(
+                allOf(withId(R.id.md_title), withText("tag (1)"),
+                        withParent(withParent(withId(R.id.md_contentRecyclerView))),
+                        isDisplayed()));
+        tag_retrieve.check(matches(withText("tag (1)")));
+
+        List<Tag> tags = DbHelper.getInstance().getTags();
 
         assertEquals(1, tags.size());
         assertEquals("#tag", tags.get(0).toString());
@@ -346,7 +379,7 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
     @Test
     public void tagNumTag(){
         String pre_content = "This is the content.";
-        Note note1 = createTestNote("Note Title", pre_content, 0);
+        createNoteByUI("Note Title", pre_content);
 
         onView(withText("Note Title")).perform(click());
 
@@ -399,7 +432,14 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+        List<Tag> tags = DbHelper.getInstance().getTags();
+
+        onView(withText(R.string.select_tags)).inRoot(isDialog());
+        ViewInteraction tag_retrieve = onView(
+                allOf(withId(R.id.md_title), withText("tag2tag (1)"),
+                        withParent(withParent(withId(R.id.md_contentRecyclerView))),
+                        isDisplayed()));
+        tag_retrieve.check(matches(withText("tag2tag (1)")));
 
         assertEquals(1, tags.size());
         assertEquals("#tag2tag", tags.get(0).toString());
@@ -408,7 +448,7 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
     @Test
     public void charOnly(){
         String pre_content = "This is the content.";
-        Note note1 = createTestNote("Note Title", pre_content, 0);
+        createNoteByUI("Note Title", pre_content);
 
         onView(withText("Note Title")).perform(click());
 
@@ -461,7 +501,9 @@ public class AddTagsToNoteTest extends BaseEspressoTest{
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags(note1);
+        onView(withText(R.string.select_tags)).check(doesNotExist());
+
+        List<Tag> tags = DbHelper.getInstance().getTags();
 
         assertEquals(0, tags.size());
     }

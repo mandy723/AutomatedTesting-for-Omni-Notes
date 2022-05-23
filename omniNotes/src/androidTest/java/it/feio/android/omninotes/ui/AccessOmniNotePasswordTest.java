@@ -7,6 +7,7 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
@@ -37,8 +38,7 @@ import it.feio.android.omninotes.R;
 @RunWith(AndroidJUnit4.class)
 public class AccessOmniNotePasswordTest extends BaseEspressoTest{
 
-    @Test
-    public void accessAppWithPasswordTest() {
+    public void createPasswordForApp(){
         ViewInteraction appCompatImageButton = onView(
                 allOf(withContentDescription("drawer open"),
                         childAtPosition(
@@ -61,9 +61,9 @@ public class AccessOmniNotePasswordTest extends BaseEspressoTest{
         press_setting.perform(scrollTo(), click());
 
         ViewInteraction press_data = onView(
-                        childAtPosition(
-                                withId(android.R.id.list_container),
-                                0));
+                childAtPosition(
+                        withId(android.R.id.list_container),
+                        0));
         press_data.perform(actionOnItemAtPosition(1, click()));
 
         ViewInteraction press_password = onView(
@@ -134,9 +134,9 @@ public class AccessOmniNotePasswordTest extends BaseEspressoTest{
         }
 
         ViewInteraction enable_request_password = onView(
-                        childAtPosition(
-                                withId(android.R.id.list_container),
-                                0));
+                childAtPosition(
+                        withId(android.R.id.list_container),
+                        0));
         enable_request_password.perform(actionOnItemAtPosition(2, click()));
 
         ViewInteraction enter_password = onView(withId(R.id.password_request));
@@ -154,8 +154,16 @@ public class AccessOmniNotePasswordTest extends BaseEspressoTest{
 
         activityRule.finishActivity();
         activityRule.launchActivity(new Intent());
+    }
 
-        enter_password.perform(replaceText("aa"), closeSoftKeyboard());
+    @Test
+    public void accessAppWithPasswordTest() {
+        createPasswordForApp();
+
+        onView(withId(R.id.password_request)).check(matches(isDisplayed()));
+
+        ViewInteraction enter_app_password = onView(withId(R.id.password_request));
+        enter_app_password.perform(replaceText("aa"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
 
         // Waiting a little to ensure Eventbus post propagation
@@ -168,7 +176,20 @@ public class AccessOmniNotePasswordTest extends BaseEspressoTest{
 
     @Test
     public void accessAppWithoutPasswordTest() {
-        accessAppWithPasswordTest();
+        createPasswordForApp();
+
+        onView(withId(R.id.password_request)).check(matches(isDisplayed()));
+
+        ViewInteraction enter_app_password = onView(withId(R.id.password_request));
+        enter_app_password.perform(replaceText("aa"), closeSoftKeyboard());
+        onView(withText("Ok")).perform(click());
+
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         ViewInteraction appCompatImageButton = onView(
                 allOf(withContentDescription("drawer open"),

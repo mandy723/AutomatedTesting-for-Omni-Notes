@@ -17,6 +17,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertEquals;
 
 import static java.lang.Thread.sleep;
 
@@ -25,6 +26,8 @@ import androidx.test.espresso.ViewInteraction;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
+
+import junit.framework.AssertionFailedError;
 
 import org.hamcrest.Matchers;
 import org.junit.Before;
@@ -40,9 +43,8 @@ import it.feio.android.omninotes.models.Note;
 @RunWith(AndroidJUnit4.class)
 public class AccessNotePasswordTest extends BaseEspressoTest {
 
-    @Test
-    public void accessNoteWithNewPassword(){
-        Note note1 = createTestNote("Note Title", "This is the content.", 0);
+    public void createNoteWithPassword(String title, String content){
+        createNoteByUI(title, content);
 
         onView(withText("Note Title")).perform(click());
 
@@ -106,17 +108,27 @@ public class AccessNotePasswordTest extends BaseEspressoTest {
         }
 
         onView(withContentDescription(R.string.drawer_open)).perform(click());
+    }
+
+    @Test
+    public void accessNoteWithNewPassword(){
+        createNoteWithPassword("Note Title", "This is the content.");
 
         onView(withText("Note Title")).perform(click());
+
+        onView(withId(R.id.password_request)).check(matches(isDisplayed()));
 
         ViewInteraction editText4 = onView(withId(R.id.password_request));
         editText4.perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
+
+        onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
+        onView(withId(R.id.detail_content)).check(matches(withText("This is the content.")));
     }
 
     @Test
     public void accessNoteWithNewPasswordConfirmFailed(){
-        Note note1 = createTestNote("Note Title", "This is the content.", 0);
+        createNoteByUI("Note Title", "This is the content.");
 
         onView(withText("Note Title")).perform(click());
 
@@ -173,6 +185,8 @@ public class AccessNotePasswordTest extends BaseEspressoTest {
         ViewInteraction materialButton = onView(withText("Ok"));
         materialButton.perform(scrollTo(), click());
 
+        onView(withId(R.id.password_root)).check(matches(isDisplayed()));
+
         ViewInteraction appCompatEditText2Correct = onView(
                 allOf(withId(R.id.password_check),
                         childAtPosition(
@@ -204,17 +218,26 @@ public class AccessNotePasswordTest extends BaseEspressoTest {
 
         onView(withText("Note Title")).perform(click());
 
+        onView(withId(R.id.password_request)).check(matches(isDisplayed()));
+
         ViewInteraction editText4 = onView(withId(R.id.password_request));
         editText4.perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
+
+        onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
+        onView(withId(R.id.detail_content)).check(matches(withText("This is the content.")));
     }
 
     @Test
     public void disablePasswordToNote(){
-        accessNoteWithNewPassword();
+        createNoteWithPassword("Note Title", "This is the content.");
+
+        onView(withText("Note Title")).perform(click());
+        ViewInteraction editText4 = onView(withId(R.id.password_request));
+        editText4.perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withText("Ok")).perform(click());
 
         onView(withContentDescription("More options")).perform(click());
-
         onView(withText("Unlock")).perform(click());
 
         // Waiting a little to ensure Eventbus post propagation
@@ -225,7 +248,9 @@ public class AccessNotePasswordTest extends BaseEspressoTest {
         }
 
         onView(withContentDescription(R.string.drawer_open)).perform(click());
-
         onView(withText("Note Title")).perform(click());
+
+        onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
+        onView(withId(R.id.detail_content)).check(matches(withText("This is the content.")));
     }
 }
