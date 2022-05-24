@@ -21,7 +21,6 @@ public class TC09DiscardNoteChangesTest extends BaseEspressoTest{
     @Test
     public void discardNoteChanges() {
         createNoteByUI("TestTitle", "TestContent");
-
         onView(withText("TestTitle")).perform(click());
         onView(withText("TestContent")).perform(typeText("ModifiedTest"));
         onView(withContentDescription("More options")).perform(click());

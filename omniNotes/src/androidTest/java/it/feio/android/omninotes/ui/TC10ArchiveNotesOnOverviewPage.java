@@ -28,8 +28,6 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest{
 
         onView(withText("TestTitle1")).perform(longClick());
         onView(withText("TestTitle2")).perform(click());
-
-
         onView(allOf(
                 withContentDescription("More options"),
                 allOf(
@@ -39,11 +37,8 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest{
                         ), withParentIndex(2)),
                 isDisplayed())
         ).perform(click());
-
         onView(withText("Archive")).perform(click());
-
 //        onView(withText(R.string.note_archived)).perform(click());
-
         onView(allOf(
                 withContentDescription("drawer open"),
                 allOf(
@@ -52,7 +47,6 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest{
                 ),
                 isDisplayed())
         ).perform(click());
-
         onView(withText("Archive")).perform(click());
 
         onView(withText("TestTitle1")).check(matches(withText("TestTitle1")));
