@@ -11,18 +11,14 @@ import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withParentIndex;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
-import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import it.feio.android.omninotes.R;
 
-@RunWith(AndroidJUnit4.class)
-public class TC11RestoreNotesFromArchive extends BaseEspressoTest{
-
+public class TC13RestoreNotesFromTrash extends BaseEspressoTest{
     @Test
-    public void restoreNotesFromArchive() {
+    public void restoreNotesFromTrash() {
         createNoteByUI("TestTitle1", "TestContent1");
         createNoteByUI("TestTitle2", "TestContent2");
         onView(withText("TestTitle1")).perform(longClick());
@@ -36,8 +32,8 @@ public class TC11RestoreNotesFromArchive extends BaseEspressoTest{
                         ), withParentIndex(2)),
                 isDisplayed())
         ).perform(click());
-        onView(withText("Archive")).perform(click());
-//        onView(withText(R.string.note_archived)).perform(click());
+        onView(withText("Trash")).perform(click());
+//        onView(withText(R.string.note_trashed)).perform(click());
         onView(allOf(
                 withContentDescription("drawer open"),
                 allOf(
@@ -46,21 +42,20 @@ public class TC11RestoreNotesFromArchive extends BaseEspressoTest{
                 ),
                 isDisplayed())
         ).perform(click());
-        onView(withText("Archive")).perform(click());
+        onView(withText("Trash")).perform(click());
 
         onView(withText("TestTitle1")).perform(longClick());
         onView(withText("TestTitle2")).perform(click());
         onView(allOf(
-                withContentDescription("More options"),
+                withContentDescription("Restore from trash"),
                 allOf(
                         withParent(allOf(
                                 withParent(withId(R.id.action_mode_bar)),
                                 withParentIndex(2))
-                        ), withParentIndex(2)),
+                        ), withParentIndex(1)),
                 isDisplayed())
         ).perform(click());
-        onView(withText("Restore from archive")).perform(click());
-        onView(withText(R.string.note_unarchived)).perform(click());
+        onView(withText(R.string.note_untrashed)).perform(click());
         onView(allOf(
                 withContentDescription("drawer open"),
                 allOf(
