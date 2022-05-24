@@ -23,9 +23,12 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest{
 
     @Test
     public void archiveNotesOnOverviewPage() {
-        createNoteByUI("TestTitle", "TestContent");
+        createNoteByUI("TestTitle1", "TestContent1");
+        createNoteByUI("TestTitle2", "TestContent2");
 
-        onView(withText("TestTitle")).perform(longClick());
+        onView(withText("TestTitle1")).perform(longClick());
+        onView(withText("TestTitle2")).perform(click());
+
 
         onView(allOf(
                 withContentDescription("More options"),
@@ -33,9 +36,10 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest{
                         withParent(allOf(
                                 withParent(withId(R.id.action_mode_bar)),
                                 withParentIndex(2))
-                        ), withParentIndex(3)),
+                        ), withParentIndex(2)),
                 isDisplayed())
         ).perform(click());
+
         onView(withText("Archive")).perform(click());
 
 //        onView(withText(R.string.note_archived)).perform(click());
@@ -51,6 +55,7 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest{
 
         onView(withText("Archive")).perform(click());
 
-        onView(withText("TestTitle")).check(matches(withText("TestTitle")));
+        onView(withText("TestTitle1")).check(matches(withText("TestTitle1")));
+        onView(withText("TestTitle2")).check(matches(withText("TestTitle2")));
     }
 }
