@@ -32,8 +32,8 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest{
                 withContentDescription("More options"),
                 allOf(
                         withParent(allOf(
-                                withParent(withId(R.id.action_mode_bar)),
-                                withParentIndex(2))
+                                withParentIndex(2),
+                                withParent(withId(R.id.action_mode_bar)))
                         ), withParentIndex(2)),
                 isDisplayed())
         ).perform(click());

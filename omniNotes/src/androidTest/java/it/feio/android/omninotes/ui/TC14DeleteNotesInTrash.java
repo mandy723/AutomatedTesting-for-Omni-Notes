@@ -67,20 +67,7 @@ public class TC14DeleteNotesInTrash extends BaseEspressoTest{
         ).perform(click());
         onView(withText("OK")).perform(click());
 
-//        onView(allOf(
-//                withParent(allOf(
-//                        withParent(withId(R.id.card_layout)),
-//                        withId(R.id.note_title))))
-//        ).check(matches(not(withText("TestTitle1"))));
-//        onView(allOf(
-//                withParent(allOf(
-//                        withParent(withId(R.id.card_layout)),
-//                        withId(R.id.note_title))))
-//        ).check(matches(withText("TestTitle2")));
-
         onView(withId(R.id.note_title)).check(matches(not(withText("TestTitle1"))));
         onView(withId(R.id.note_title)).check(matches(withText("TestTitle2")));
-
-
     }
 }
