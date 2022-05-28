@@ -33,8 +33,8 @@ public class TC06ModifyNoteTest  extends BaseEspressoTest{
         onView(withText("TestTitle")).perform(click());
         onView(withText("TestContent")).perform(typeText("Modified"));
 
+        navigateUp();
         onView(withText("TestTitle")).perform(click());
-
         onView(withId(R.id.detail_content)).check(matches(withText("TestContentModified")));
         onView(withId(R.id.detail_content)).check(matches(not(withText("TestContent"))));
     }
