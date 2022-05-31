@@ -1,4 +1,4 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;

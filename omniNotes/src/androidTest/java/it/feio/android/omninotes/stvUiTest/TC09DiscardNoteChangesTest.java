@@ -1,4 +1,4 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 import it.feio.android.omninotes.R;
 
 @RunWith(AndroidJUnit4.class)
-public class TC09DiscardNoteChangesTest extends BaseEspressoTest{
+public class TC09DiscardNoteChangesTest extends BaseEspressoTest {
     @Test
     public void discardNoteChanges() {
         createNoteByUI("TestTitle", "TestContent");

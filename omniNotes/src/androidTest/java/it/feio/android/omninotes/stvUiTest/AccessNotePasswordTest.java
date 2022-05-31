@@ -1,43 +1,26 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 import static androidx.test.espresso.Espresso.onView;
-import static androidx.test.espresso.Espresso.openActionBarOverflowOrOptionsMenu;
-import static androidx.test.espresso.Espresso.openContextualActionModeOverflowMenu;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
-import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
-
 import static org.hamcrest.Matchers.allOf;
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertEquals;
-
 import static java.lang.Thread.sleep;
 
-import androidx.core.view.GravityCompat;
 import androidx.test.espresso.ViewInteraction;
-import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 
-import junit.framework.AssertionFailedError;
-
-import org.hamcrest.Matchers;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import it.feio.android.omninotes.R;
-import it.feio.android.omninotes.commons.models.BaseNote;
-import it.feio.android.omninotes.models.Note;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
@@ -233,8 +216,12 @@ public class AccessNotePasswordTest extends BaseEspressoTest {
         createNoteWithPassword("Note Title", "This is the content.");
 
         onView(withText("Note Title")).perform(click());
-        ViewInteraction editText4 = onView(withId(R.id.password_request));
-        editText4.perform(replaceText("abc"), closeSoftKeyboard());
+        try {
+            sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        onView(withId(R.id.password_request)).perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
 
         onView(withContentDescription("More options")).perform(click());

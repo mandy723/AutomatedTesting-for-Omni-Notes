@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 
 import static androidx.test.espresso.Espresso.onView;
@@ -36,10 +36,12 @@ import androidx.test.espresso.ViewInteraction;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
-import it.feio.android.omninotes.R;
+
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import it.feio.android.omninotes.R;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)

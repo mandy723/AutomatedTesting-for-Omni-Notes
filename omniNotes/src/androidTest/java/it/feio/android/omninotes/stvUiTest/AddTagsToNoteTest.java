@@ -1,7 +1,5 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
-import static androidx.test.espresso.Espresso.getIdlingResources;
-import static androidx.test.espresso.Espresso.onData;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
@@ -9,7 +7,6 @@ import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
 import static androidx.test.espresso.assertion.ViewAssertions.doesNotExist;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
-import static androidx.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition;
 import static androidx.test.espresso.matcher.RootMatchers.isDialog;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
@@ -18,12 +15,8 @@ import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
-import static org.hamcrest.Matchers.contains;
-import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.not;
 import static org.junit.Assert.assertEquals;
-
 import static java.lang.Thread.sleep;
 
 import androidx.test.espresso.ViewInteraction;
@@ -33,17 +26,15 @@ import androidx.test.filters.LargeTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import it.feio.android.omninotes.R;
 import it.feio.android.omninotes.db.DbHelper;
-import it.feio.android.omninotes.models.Note;
 import it.feio.android.omninotes.models.Tag;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
-public class AddTagsToNoteTest extends BaseEspressoTest{
+public class AddTagsToNoteTest extends BaseEspressoTest {
 
     @Test
     public void numTagSpecTag(){

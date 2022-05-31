@@ -1,4 +1,4 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -7,6 +7,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withParent;
+import static androidx.test.espresso.matcher.ViewMatchers.withParentIndex;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 
@@ -39,17 +40,14 @@ public class TC03ViewNotesByCategory extends BaseEspressoTest {
         categorizeSelectedNotes("Cate1", noteTitleList.subList(0, 2));
         categorizeSelectedNotes("Cate2", noteTitleList.subList(2, 3));
 
-        onView(allOf(withContentDescription(R.string.drawer_open),
-                withParent(withId(R.id.toolbar)))).perform(click());
+        onView(allOf(withParent(withId(R.id.toolbar)), withParentIndex(0))).perform(click());
 
         onView(allOf(withId(R.id.title), withText("Cate1"))).perform(click());
 
         onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(0)))).check(matches(withText("title1")));
         onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(1)))).check(matches(withText("title2")));
 
-        onView(allOf(withContentDescription(R.string.drawer_close),
-                withParent(withId(R.id.toolbar)),
-                isDisplayed())).perform(click());
+        onView(allOf(withParent(withId(R.id.toolbar)), withParentIndex(0))).perform(click());
 
         onView(allOf(withId(R.id.title), withText("Cate2"))).perform(click());
 

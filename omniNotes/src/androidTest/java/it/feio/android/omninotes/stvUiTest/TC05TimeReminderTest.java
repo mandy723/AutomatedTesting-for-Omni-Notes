@@ -1,4 +1,4 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -14,16 +14,18 @@ import static org.hamcrest.Matchers.startsWith;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
-import it.feio.android.omninotes.OmniNotes;
-import it.feio.android.omninotes.R;
+
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import it.feio.android.omninotes.OmniNotes;
+import it.feio.android.omninotes.R;
+
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 
-public class TC05TimeReminderTest  extends BaseEspressoTest{
+public class TC05TimeReminderTest  extends BaseEspressoTest {
     @Test
     public void setTimeReminder() {
         onView(Matchers.allOf(ViewMatchers.withId(R.id.fab_expand_menu_button),

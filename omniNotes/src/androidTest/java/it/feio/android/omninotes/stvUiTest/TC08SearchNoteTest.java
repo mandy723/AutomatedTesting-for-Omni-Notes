@@ -1,11 +1,10 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.pressImeActionButton;
 import static androidx.test.espresso.action.ViewActions.replaceText;
-import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
@@ -24,7 +23,7 @@ import org.junit.runner.RunWith;
 import it.feio.android.omninotes.R;
 
 @RunWith(AndroidJUnit4.class)
-public class TC08SearchNoteTest extends BaseEspressoTest{
+public class TC08SearchNoteTest extends BaseEspressoTest {
     @Test
     public void SearchNote() {
         createNoteByUI("NoteTitleX", "NoteContentX");

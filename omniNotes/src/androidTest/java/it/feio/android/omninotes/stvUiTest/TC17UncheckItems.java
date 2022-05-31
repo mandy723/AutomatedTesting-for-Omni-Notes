@@ -1,4 +1,4 @@
-package it.feio.android.omninotes.ui;
+package it.feio.android.omninotes.stvUiTest;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.not;
 
 import org.junit.Test;
 
-public class TC17UncheckItems extends BaseEspressoTest{
+public class TC17UncheckItems extends BaseEspressoTest {
     @Test
     public void checkItemsInsideEditingPage() {
         createNoteByUI("TestTitle", "TestContent");
