@@ -20,18 +20,12 @@ import static java.lang.Thread.sleep;
 import android.content.Intent;
 
 import androidx.test.espresso.ViewInteraction;
-import androidx.test.ext.junit.runners.AndroidJUnit4;
-import androidx.test.filters.LargeTest;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import it.feio.android.omninotes.R;
 
-@LargeTest
-@RunWith(AndroidJUnit4.class)
-public class AccessOmniNotePasswordTest extends BaseEspressoTest {
-
+public class TC22AccessOmniNoteWithoutPassword extends BaseEspressoTest{
     public void createPasswordForApp(){
         ViewInteraction appCompatImageButton = onView(
                 allOf(withContentDescription("drawer open"),
@@ -148,24 +142,6 @@ public class AccessOmniNotePasswordTest extends BaseEspressoTest {
 
         activityRule.finishActivity();
         activityRule.launchActivity(new Intent());
-    }
-
-    @Test
-    public void accessAppWithPasswordTest() {
-        createPasswordForApp();
-
-        onView(withId(R.id.password_request)).check(matches(isDisplayed()));
-
-        ViewInteraction enter_app_password = onView(withId(R.id.password_request));
-        enter_app_password.perform(replaceText("aa"), closeSoftKeyboard());
-        onView(withText("Ok")).perform(click());
-
-        // Waiting a little to ensure Eventbus post propagation
-        try {
-            sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
     @Test

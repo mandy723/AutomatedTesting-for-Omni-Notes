@@ -24,7 +24,7 @@ import it.feio.android.omninotes.R;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
-public class AccessNotePasswordTest extends BaseEspressoTest {
+public class TC18AccessNoteWithPassword extends BaseEspressoTest {
 
     public void createNoteWithPassword(String title, String content){
         createNoteByUI(title, content);
@@ -206,36 +206,6 @@ public class AccessNotePasswordTest extends BaseEspressoTest {
         ViewInteraction editText4 = onView(withId(R.id.password_request));
         editText4.perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
-
-        onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
-        onView(withId(R.id.detail_content)).check(matches(withText("This is the content.")));
-    }
-
-    @Test
-    public void disablePasswordToNote(){
-        createNoteWithPassword("Note Title", "This is the content.");
-
-        onView(withText("Note Title")).perform(click());
-        try {
-            sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        onView(withId(R.id.password_request)).perform(replaceText("abc"), closeSoftKeyboard());
-        onView(withText("Ok")).perform(click());
-
-        onView(withContentDescription("More options")).perform(click());
-        onView(withText("Unlock")).perform(click());
-
-        // Waiting a little to ensure Eventbus post propagation
-        try {
-            sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        onView(withContentDescription(R.string.drawer_open)).perform(click());
-        onView(withText("Note Title")).perform(click());
 
         onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
         onView(withId(R.id.detail_content)).check(matches(withText("This is the content.")));

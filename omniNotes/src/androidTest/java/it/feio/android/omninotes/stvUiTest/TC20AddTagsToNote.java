@@ -34,7 +34,7 @@ import it.feio.android.omninotes.models.Tag;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
-public class AddTagsToNoteTest extends BaseEspressoTest {
+public class TC20AddTagsToNote extends BaseEspressoTest {
 
     @Test
     public void numTagSpecTag(){
