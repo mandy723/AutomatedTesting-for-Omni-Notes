@@ -36,12 +36,16 @@ public class TC14DeleteNotesInTrash extends BaseEspressoTest {
         onView(allOf(
                 withContentDescription("More options"),
                 allOf(
-                        withParent(allOf(
-                                withParent(withId(R.id.action_mode_bar)),
-                                withParentIndex(2))
-                        ), withParentIndex(2)),
-                isDisplayed())
-        ).perform(click());
+                        withParent(
+                                allOf(
+                                        withParent(withId(R.id.action_mode_bar)),
+                                        withParentIndex(2)
+                                )
+                        ),
+                        withParentIndex(2)
+                ),
+                isDisplayed()
+        )).perform(click());
         onView(withText("Trash")).perform(click());
 //        onView(withText(R.string.note_trashed)).perform(click());
         onView(allOf(
@@ -50,8 +54,8 @@ public class TC14DeleteNotesInTrash extends BaseEspressoTest {
                         withParent(withId(R.id.toolbar)),
                         withParentIndex(0)
                 ),
-                isDisplayed())
-        ).perform(click());
+                isDisplayed()
+        )).perform(click());
         onView(withText("Trash")).perform(click());
 
         onView(withText("TestTitle1")).perform(longClick());
@@ -59,12 +63,16 @@ public class TC14DeleteNotesInTrash extends BaseEspressoTest {
         onView(allOf(
                 withContentDescription("Delete"),
                 allOf(
-                        withParent(allOf(
-                                withParent(withId(R.id.action_mode_bar)),
-                                withParentIndex(2))
-                        ), withParentIndex(2)),
-                isDisplayed())
-        ).perform(click());
+                        withParent(
+                                allOf(
+                                        withParent(withId(R.id.action_mode_bar)),
+                                        withParentIndex(2)
+                                )
+                        ),
+                        withParentIndex(2)
+                ),
+                isDisplayed()
+        )).perform(click());
         onView(withText("OK")).perform(click());
 
         onView(withId(R.id.note_title)).check(matches(not(withText("TestTitle1"))));

@@ -32,12 +32,16 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest {
         onView(allOf(
                 withContentDescription("More options"),
                 allOf(
-                        withParent(allOf(
-                                withParentIndex(2),
-                                withParent(withId(R.id.action_mode_bar)))
-                        ), withParentIndex(2)),
-                isDisplayed())
-        ).perform(click());
+                        withParent(
+                                allOf(
+                                        withParentIndex(2),
+                                        withParent(withId(R.id.action_mode_bar))
+                                )
+                        ),
+                        withParentIndex(2)
+                ),
+                isDisplayed()
+        )).perform(click());
         onView(withText("Archive")).perform(click());
 //        onView(withText(R.string.note_archived)).perform(click());
         onView(allOf(
@@ -46,8 +50,8 @@ public class TC10ArchiveNotesOnOverviewPage extends BaseEspressoTest {
                         withParent(withId(R.id.toolbar)),
                         withParentIndex(0)
                 ),
-                isDisplayed())
-        ).perform(click());
+                isDisplayed()
+        )).perform(click());
         onView(withText("Archive")).perform(click());
 
         onView(withText("TestTitle1")).check(matches(withText("TestTitle1")));

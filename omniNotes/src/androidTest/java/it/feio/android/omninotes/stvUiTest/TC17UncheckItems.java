@@ -22,21 +22,24 @@ public class TC17UncheckItems extends BaseEspressoTest {
         onView(withText("TestTitle")).perform(click());
         onView(withContentDescription("More options")).perform(click());
         onView(withText("Enable checklist")).perform(click());
+
         onView(allOf(
                 withParent(
-                        withChild(withText("TestContent"))),
-                withParentIndex(1))
-        ).check(matches(isDisplayed()))
+                        withChild(withText("TestContent"))
+                ),
+                withParentIndex(1)
+        )).check(matches(isDisplayed()))
         .perform(click());
         navigateUp();
 
         onView(withText("TestTitle")).perform(click());
         onView(allOf(
                 withParent(
-                        withChild(withText("TestContent"))),
-                withParentIndex(1))
-        ).check(matches(isDisplayed()))
-                .perform(click())
-                .check(matches(not(isChecked())));
+                        withChild(withText("TestContent"))
+                ),
+                withParentIndex(1)
+        )).check(matches(isDisplayed()))
+        .perform(click())
+        .check(matches(not(isChecked())));
     }
 }

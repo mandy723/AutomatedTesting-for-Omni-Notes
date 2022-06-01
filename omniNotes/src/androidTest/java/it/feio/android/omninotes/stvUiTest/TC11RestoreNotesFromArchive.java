@@ -31,12 +31,17 @@ public class TC11RestoreNotesFromArchive extends BaseEspressoTest {
         onView(allOf(
                 withContentDescription("More options"),
                 allOf(
-                        withParent(allOf(
-                                withParent(withId(R.id.action_mode_bar)),
-                                withParentIndex(2))
-                        ), withParentIndex(2)),
-                isDisplayed())
-        ).perform(click());
+                        withParent(
+                                allOf(
+                                        withParent(withId(R.id.action_mode_bar)),
+                                        withParentIndex(2)
+                                )
+                        ),
+                        withParentIndex(2)
+                ),
+                isDisplayed()
+        )).perform(click());
+
         onView(withText("Archive")).perform(click());
 //        onView(withText(R.string.note_archived)).perform(click());
         onView(allOf(
@@ -45,8 +50,9 @@ public class TC11RestoreNotesFromArchive extends BaseEspressoTest {
                         withParent(withId(R.id.toolbar)),
                         withParentIndex(0)
                 ),
-                isDisplayed())
-        ).perform(click());
+                isDisplayed()
+        )).perform(click());
+
         onView(withText("Archive")).perform(click());
 
         onView(withText("TestTitle1")).perform(longClick());
@@ -56,10 +62,12 @@ public class TC11RestoreNotesFromArchive extends BaseEspressoTest {
                 allOf(
                         withParent(allOf(
                                 withParent(withId(R.id.action_mode_bar)),
-                                withParentIndex(2))
-                        ), withParentIndex(2)),
-                isDisplayed())
-        ).perform(click());
+                                withParentIndex(2)
+                                )
+                        ), withParentIndex(2)
+                ),
+                isDisplayed()
+        )).perform(click());
         onView(withText("Restore from archive")).perform(click());
         onView(withText(R.string.note_unarchived)).perform(click());
         onView(allOf(
@@ -68,8 +76,8 @@ public class TC11RestoreNotesFromArchive extends BaseEspressoTest {
                         withParent(withId(R.id.toolbar)),
                         withParentIndex(0)
                 ),
-                isDisplayed())
-        ).perform(click());
+                isDisplayed()
+        )).perform(click());
         onView(withText("Notes")).perform(click());
 
         onView(withText("TestTitle1")).check(matches(withText("TestTitle1")));

@@ -26,9 +26,10 @@ public class TC16CheckItems extends BaseEspressoTest {
         onView(withText("TestTitle")).perform(click());
         onView(allOf(
                 withParent(
-                        withChild(withText("TestContent"))),
-                withParentIndex(1))
-        ).check(matches(isDisplayed()))
+                        withChild(withText("TestContent"))
+                ),
+                withParentIndex(1)
+        )).check(matches(isDisplayed()))
         .perform(click())
         .check(matches(isChecked()));
     }

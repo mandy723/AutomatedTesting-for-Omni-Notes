@@ -27,11 +27,14 @@ public class TC13RestoreNotesFromTrash extends BaseEspressoTest {
                 withContentDescription("More options"),
                 allOf(
                         withParent(allOf(
-                                withParent(withId(R.id.action_mode_bar)),
-                                withParentIndex(2))
-                        ), withParentIndex(2)),
-                isDisplayed())
-        ).perform(click());
+                                        withParent(withId(R.id.action_mode_bar)),
+                                        withParentIndex(2)
+                                )
+                        ),
+                        withParentIndex(2)
+                ),
+                isDisplayed()
+        )).perform(click());
         onView(withText("Trash")).perform(click());
 //        onView(withText(R.string.note_trashed)).perform(click());
         onView(allOf(
@@ -50,11 +53,14 @@ public class TC13RestoreNotesFromTrash extends BaseEspressoTest {
                 withContentDescription("Restore from trash"),
                 allOf(
                         withParent(allOf(
-                                withParent(withId(R.id.action_mode_bar)),
-                                withParentIndex(2))
-                        ), withParentIndex(1)),
-                isDisplayed())
-        ).perform(click());
+                                        withParent(withId(R.id.action_mode_bar)),
+                                        withParentIndex(2)
+                                )
+                        ),
+                        withParentIndex(1)
+                ),
+                isDisplayed()
+        )).perform(click());
         onView(withText(R.string.note_untrashed)).perform(click());
         onView(allOf(
                 withContentDescription("drawer open"),
@@ -62,8 +68,8 @@ public class TC13RestoreNotesFromTrash extends BaseEspressoTest {
                         withParent(withId(R.id.toolbar)),
                         withParentIndex(0)
                 ),
-                isDisplayed())
-        ).perform(click());
+                isDisplayed()
+        )).perform(click());
         onView(withText("Notes")).perform(click());
 
         onView(withText("TestTitle1")).check(matches(withText("TestTitle1")));
