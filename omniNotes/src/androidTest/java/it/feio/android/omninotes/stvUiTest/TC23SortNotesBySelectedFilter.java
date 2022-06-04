@@ -29,18 +29,6 @@ public class TC23SortNotesBySelectedFilter extends BaseEspressoTest {
 
         onView(withId(R.id.menu_sort)).perform(click());
         onView(withText("Last modification date")).perform(click());
-//
-//        onView(withId(R.id.menu_sort)).perform(click());
-//        onView(withText("Last modification date")).perform(click());
-//
-//        onView(withId(R.id.menu_sort)).perform(click());
-//        onView(withText("Last modification date")).perform(click());
-//
-//        onView(withId(R.id.menu_sort)).perform(click());
-//        onView(withText("Last modification date")).perform(click());
-//
-//        onView(withId(R.id.menu_sort)).perform(click());
-//        onView(withText("Last modification date")).perform(click());
 
         onView(allOf(
                 withId(R.id.note_title),
