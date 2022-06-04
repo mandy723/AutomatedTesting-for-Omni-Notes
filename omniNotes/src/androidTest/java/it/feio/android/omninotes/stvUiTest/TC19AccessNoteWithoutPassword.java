@@ -6,6 +6,8 @@ import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.RootMatchers.isDialog;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
@@ -91,13 +93,14 @@ public class TC19AccessNoteWithoutPassword extends BaseEspressoTest{
     public void disablePasswordToNote(){
         createNoteWithPassword("Note Title", "This is the content.");
 
-        onView(withText("Note Title")).perform(click());
         try {
-            sleep(2000);
+            sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        onView(withId(R.id.password_request)).perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withText("Note Title")).perform(click());
+
+        onView(withId(R.id.password_request)).inRoot(isDialog()).perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
 
         onView(withContentDescription("More options")).perform(click());

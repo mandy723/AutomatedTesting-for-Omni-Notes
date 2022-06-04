@@ -6,6 +6,7 @@ import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.RootMatchers.isDialog;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
@@ -97,11 +98,16 @@ public class TC18AccessNoteWithPassword extends BaseEspressoTest {
     public void accessNoteWithNewPassword(){
         createNoteWithPassword("Note Title", "This is the content.");
 
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         onView(withText("Note Title")).perform(click());
 
-        onView(withId(R.id.password_request)).check(matches(isDisplayed()));
+        onView(withId(R.id.password_request)).inRoot(isDialog()).check(matches(isDisplayed()));
 
-        onView(withId(R.id.password_request)).perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withId(R.id.password_request)).inRoot(isDialog()).perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
 
         onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
@@ -198,16 +204,16 @@ public class TC18AccessNoteWithPassword extends BaseEspressoTest {
 
         onView(withContentDescription(R.string.drawer_open)).perform(click());
 
-        onView(withText("Note Title")).perform(click());
-        // Waiting a little to ensure Eventbus post propagation
         try {
             sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        onView(withId(R.id.password_request)).check(matches(isDisplayed()));
+        onView(withText("Note Title")).perform(click());
 
-        onView(withId(R.id.password_request)).perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withId(R.id.password_request)).inRoot(isDialog()).check(matches(isDisplayed()));
+
+        onView(withId(R.id.password_request)).inRoot(isDialog()).perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
 
         onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));

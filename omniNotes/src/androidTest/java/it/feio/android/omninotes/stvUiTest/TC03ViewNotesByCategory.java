@@ -11,6 +11,9 @@ import static androidx.test.espresso.matcher.ViewMatchers.withParentIndex;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 
+import static java.lang.Thread.sleep;
+
+import androidx.test.espresso.ViewInteraction;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 
@@ -44,6 +47,11 @@ public class TC03ViewNotesByCategory extends BaseEspressoTest {
 
         onView(allOf(withId(R.id.title), withText("Cate1"))).perform(click());
 
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(0)))).check(matches(withText("title1")));
         onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(1)))).check(matches(withText("title2")));
 
@@ -51,6 +59,11 @@ public class TC03ViewNotesByCategory extends BaseEspressoTest {
 
         onView(allOf(withId(R.id.title), withText("Cate2"))).perform(click());
 
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         onView(allOf(withId(R.id.note_title), withText(noteTitleList.get(2)))).check(matches(withText("title3")));
     }
 
