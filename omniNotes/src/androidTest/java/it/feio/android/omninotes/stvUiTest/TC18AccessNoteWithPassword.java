@@ -101,8 +101,7 @@ public class TC18AccessNoteWithPassword extends BaseEspressoTest {
 
         onView(withId(R.id.password_request)).check(matches(isDisplayed()));
 
-        ViewInteraction editText4 = onView(withId(R.id.password_request));
-        editText4.perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withId(R.id.password_request)).perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
 
         onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
@@ -200,11 +199,15 @@ public class TC18AccessNoteWithPassword extends BaseEspressoTest {
         onView(withContentDescription(R.string.drawer_open)).perform(click());
 
         onView(withText("Note Title")).perform(click());
-
+        // Waiting a little to ensure Eventbus post propagation
+        try {
+            sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         onView(withId(R.id.password_request)).check(matches(isDisplayed()));
 
-        ViewInteraction editText4 = onView(withId(R.id.password_request));
-        editText4.perform(replaceText("abc"), closeSoftKeyboard());
+        onView(withId(R.id.password_request)).perform(replaceText("abc"), closeSoftKeyboard());
         onView(withText("Ok")).perform(click());
 
         onView(withId(R.id.detail_title)).check(matches(withText("Note Title")));
