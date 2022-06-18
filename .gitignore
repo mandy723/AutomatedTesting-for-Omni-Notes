@@ -46,7 +46,7 @@ Thumbs.db
 *.bak
 
 # gradle directory
-# .gradle
+.gradle
 build/
 
 # Android Studio

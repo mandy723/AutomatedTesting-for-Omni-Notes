@@ -16,7 +16,6 @@ import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertEquals;
 import static java.lang.Thread.sleep;
 
 import androidx.test.espresso.ViewInteraction;
@@ -26,11 +25,7 @@ import androidx.test.filters.LargeTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import java.util.List;
-
 import it.feio.android.omninotes.R;
-import it.feio.android.omninotes.db.DbHelper;
-import it.feio.android.omninotes.models.Tag;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
@@ -92,10 +87,8 @@ public class TC20AddTagsToNote extends BaseEspressoTest {
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
+        onView(withText(R.string.no_tags_created)).check(matches(isDisplayed()));
         onView(withText(R.string.select_tags)).check(doesNotExist());
-        List<Tag> tags = DbHelper.getInstance().getTags();
-
-        assertEquals(0, tags.size());
     }
 
     @Test
@@ -154,10 +147,8 @@ public class TC20AddTagsToNote extends BaseEspressoTest {
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
+        onView(withText(R.string.no_tags_created)).check(matches(isDisplayed()));
         onView(withText(R.string.select_tags)).check(doesNotExist());
-        List<Tag> tags = DbHelper.getInstance().getTags();
-
-        assertEquals(0, tags.size());
     }
 
     @Test
@@ -222,11 +213,6 @@ public class TC20AddTagsToNote extends BaseEspressoTest {
                         withParent(withParent(withId(R.id.md_contentRecyclerView))),
                         isDisplayed()));
         tag_retrieve.check(matches(withText("tag2 (1)")));
-
-        List<Tag> tags = DbHelper.getInstance().getTags();
-
-        assertEquals(1, tags.size());
-        assertEquals("#tag2", tags.get(0).toString());
     }
 
     @Test
@@ -291,11 +277,6 @@ public class TC20AddTagsToNote extends BaseEspressoTest {
                         withParent(withParent(withId(R.id.md_contentRecyclerView))),
                         isDisplayed()));
         tag_retrieve.check(matches(withText("tag3 (1)")));
-
-        List<Tag> tags = DbHelper.getInstance().getTags();
-
-        assertEquals(1, tags.size());
-        assertEquals("#tag3", tags.get(0).toString());
     }
 
     @Test
@@ -360,11 +341,6 @@ public class TC20AddTagsToNote extends BaseEspressoTest {
                         withParent(withParent(withId(R.id.md_contentRecyclerView))),
                         isDisplayed()));
         tag_retrieve.check(matches(withText("tag (1)")));
-
-        List<Tag> tags = DbHelper.getInstance().getTags();
-
-        assertEquals(1, tags.size());
-        assertEquals("#tag", tags.get(0).toString());
     }
 
     @Test
@@ -423,17 +399,12 @@ public class TC20AddTagsToNote extends BaseEspressoTest {
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
-        List<Tag> tags = DbHelper.getInstance().getTags();
-
         onView(withText(R.string.select_tags)).inRoot(isDialog());
         ViewInteraction tag_retrieve = onView(
                 allOf(withId(R.id.md_title), withText("tag2tag (1)"),
                         withParent(withParent(withId(R.id.md_contentRecyclerView))),
                         isDisplayed()));
         tag_retrieve.check(matches(withText("tag2tag (1)")));
-
-        assertEquals(1, tags.size());
-        assertEquals("#tag2tag", tags.get(0).toString());
     }
 
     @Test
@@ -492,10 +463,7 @@ public class TC20AddTagsToNote extends BaseEspressoTest {
                         isDisplayed()));
         actionMenuItemView.perform(click());
 
+        onView(withText(R.string.no_tags_created)).check(matches(isDisplayed()));
         onView(withText(R.string.select_tags)).check(doesNotExist());
-
-        List<Tag> tags = DbHelper.getInstance().getTags();
-
-        assertEquals(0, tags.size());
     }
 }
